@@ -1,0 +1,254 @@
+[
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_8mdd4v30.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_1_test_1_hardcoded_dataset_8mdd4v30_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_t9nt3w5u.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_1_test_1_hardcoded_dataset_t9nt3w5u_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_zbikcidk.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_1_test_1_hardcoded_dataset_zbikcidk_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_wnnhj7xv.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_1_test_2_predefined_dataset_wnnhj7xv_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_g0fn9xuy.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_1_test_2_predefined_dataset_g0fn9xuy_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_41ibljh7.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_1_test_2_predefined_dataset_41ibljh7_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_5lxo6qji.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_1_test_3_dynamic_dataset_5lxo6qji_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_ujv6oh9s.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_1_test_3_dynamic_dataset_ujv6oh9s_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_dbdw2pcn.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_1_test_3_dynamic_dataset_dbdw2pcn_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_9t84azyt.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_1_test_4_dynamic_tone_dataset_9t84azyt_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_jxepq85j.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_1_test_4_dynamic_tone_dataset_jxepq85j_results.json"
+  },
+  {
+    "evaluator_id": 1,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_sg65kxvf.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_1_test_4_dynamic_tone_dataset_sg65kxvf_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_8mdd4v30.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_2_test_1_hardcoded_dataset_8mdd4v30_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_t9nt3w5u.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_1_hardcoded_dataset_t9nt3w5u_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_zbikcidk.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_2_test_1_hardcoded_dataset_zbikcidk_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_wnnhj7xv.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_2_predefined_dataset_wnnhj7xv_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_g0fn9xuy.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_2_test_2_predefined_dataset_g0fn9xuy_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_41ibljh7.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_2_predefined_dataset_41ibljh7_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_5lxo6qji.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_2_test_3_dynamic_dataset_5lxo6qji_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_ujv6oh9s.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_3_dynamic_dataset_ujv6oh9s_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_dbdw2pcn.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_3_dynamic_dataset_dbdw2pcn_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_9t84azyt.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_4_dynamic_tone_dataset_9t84azyt_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_jxepq85j.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_2_test_4_dynamic_tone_dataset_jxepq85j_results.json"
+  },
+  {
+    "evaluator_id": 2,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_sg65kxvf.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_2_test_4_dynamic_tone_dataset_sg65kxvf_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_8mdd4v30.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_1_hardcoded_dataset_8mdd4v30_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_t9nt3w5u.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_3_test_1_hardcoded_dataset_t9nt3w5u_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_1_hardcoded",
+    "test_dataset": "dataset_zbikcidk.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_1_hardcoded_dataset_zbikcidk_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_wnnhj7xv.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_2_predefined_dataset_wnnhj7xv_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_g0fn9xuy.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_3_test_2_predefined_dataset_g0fn9xuy_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_2_predefined",
+    "test_dataset": "dataset_41ibljh7.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_3_test_2_predefined_dataset_41ibljh7_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_5lxo6qji.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_3_dynamic_dataset_5lxo6qji_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_ujv6oh9s.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_3_test_3_dynamic_dataset_ujv6oh9s_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_3_dynamic",
+    "test_dataset": "dataset_dbdw2pcn.json",
+    "control_dataset": "dataset_hv3a3zmf.json",
+    "output_file": "pairwise_evaluator_3_test_3_dynamic_dataset_dbdw2pcn_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_9t84azyt.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_4_dynamic_tone_dataset_9t84azyt_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_jxepq85j.json",
+    "control_dataset": "dataset_xaji0y6d.json",
+    "output_file": "pairwise_evaluator_3_test_4_dynamic_tone_dataset_jxepq85j_results.json"
+  },
+  {
+    "evaluator_id": 3,
+    "condition_name": "test_4_dynamic_tone",
+    "test_dataset": "dataset_sg65kxvf.json",
+    "control_dataset": "dataset_pbhsahxt.json",
+    "output_file": "pairwise_evaluator_3_test_4_dynamic_tone_dataset_sg65kxvf_results.json"
+  }
+]

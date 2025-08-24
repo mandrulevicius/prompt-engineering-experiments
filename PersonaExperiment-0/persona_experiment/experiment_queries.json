@@ -1,0 +1,22 @@
+{
+  "queries": {
+    "query_1": "How much does GitHub Copilot cost in 2025?",
+    "query_2": "What's the latest news about OpenAI's GPT models?",
+    "query_3": "Explain the CAP theorem and its practical implications",
+    "query_4": "How do I implement OAuth 2.0 flow securely?",
+    "query_5": "Should I use React or Vue for my startup's frontend?",
+    "query_6": "How do I structure salary negotiations as a senior engineer?",
+    "query_7": "I want to learn machine learning but I'm a complete beginner",
+    "query_8": "Help me debug this performance issue in my Node.js app",
+    "query_9": "I need to convince my CEO to adopt AI tools",
+    "query_10": "What should I know about blockchain?",
+    "query_11": "I'm having trouble with my team's productivity",
+    "query_12": "Tell me about Python"
+  },
+  "query_classifications": {
+    "research_librarian": ["query_1", "query_2"],
+    "domain_expert": ["query_3", "query_4"],
+    "practical_advisor": ["query_5", "query_6"],
+    "ambiguous": ["query_7", "query_8", "query_9", "query_10", "query_11", "query_12"]
+  }
+}

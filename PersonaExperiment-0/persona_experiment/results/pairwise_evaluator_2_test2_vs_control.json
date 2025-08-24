@@ -1,0 +1,375 @@
+{
+  "evaluator_id": "pairwise_evaluator_2",
+  "comparison": "test2_vs_control",
+  "dataset_a": "dataset_wnnhj7xv.json (Test 2 Predefined Selection)",
+  "dataset_b": "dataset_pbhsahxt.json (Control)",
+  "evaluation_criteria": [
+    "helpfulness",
+    "appropriateness", 
+    "completeness",
+    "actionability",
+    "overall_quality"
+  ],
+  "results": {
+    "query_1": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more structured, authoritative information as a Research Librarian, including specific pricing tiers ($10/month Individual, $19/user Business, $39/user Enterprise) and mentions important details like educational discounts and open source maintainer access. Dataset B covers similar information but less authoritatively and with slightly less precision in feature descriptions."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Research Librarian role in Dataset A is highly appropriate for providing factual, current pricing information. This persona naturally conveys authority and thorough research, which perfectly matches the query's need for current pricing details. Dataset B is appropriate but lacks the specialized expertise framing."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A comprehensively covers all pricing tiers, key features for each tier, and special access programs (educational, open source). Dataset B covers the main pricing information but provides slightly less detail on the specific features included in each tier and mentions regional pricing variations more prominently."
+      },
+      "actionability": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses provide actionable pricing information that users can immediately apply to make purchasing decisions. Dataset A's more structured presentation makes it slightly easier to compare options, while Dataset B's mention of checking official pricing pages adds practical advice."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its authoritative Research Librarian persona, precise pricing details, and comprehensive coverage of all access types. The role selection significantly enhances the credibility and usefulness of the information provided."
+      }
+    },
+    "query_2": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A, with its Research Librarian perspective, provides more current and specific information about GPT-4o (omni) developments, mentioning GPT-4o mini and specific capabilities like enhanced function calling. Dataset B covers similar ground but is slightly less specific about recent model variations and their particular improvements."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Research Librarian role is perfectly suited for providing current, well-researched information about AI model developments. This persona naturally conveys expertise in staying current with technological developments. Dataset B is appropriate but lacks the specialized research framework."
+      },
+      "completeness": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses cover key recent developments comprehensively. Dataset A focuses more on specific model variants and technical improvements, while Dataset B provides broader coverage including reasoning models like o1 and enterprise solutions. Both are thorough in different aspects."
+      },
+      "actionability": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses provide actionable insights for developers and organizations considering OpenAI's latest models. The information helps users understand which models might be appropriate for their use cases and what new capabilities are available."
+      },
+      "overall_quality": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses demonstrate high quality, though Dataset A's Research Librarian framing provides slightly more authoritative presentation of current information. The difference is minimal as both cover the topic comprehensively and accurately."
+      }
+    },
+    "query_3": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Domain Expert perspective provides superior explanation of CAP theorem with clearer practical implications. The explanation of how modern systems use eventual consistency and the guidance for architects making decisions is more actionable. Dataset B covers the basics well but provides less practical application guidance."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Domain Expert role is perfectly appropriate for explaining complex distributed systems concepts like CAP theorem. This persona naturally conveys deep technical knowledge and practical experience. Dataset B is appropriate but lacks the specialized technical authority."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more complete coverage by including practical guidance on how understanding CAP helps architects make decisions and mentions eventual consistency as a modern approach. Dataset B covers the core theorem well but provides less context on practical applications and decision-making."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A excels in actionability by explicitly stating how CAP understanding helps architects make informed decisions and providing clear guidance on when to choose different system types. Dataset B is informative but less directly actionable for system design decisions."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its expert-level explanation, practical focus, and actionable guidance. The Domain Expert persona significantly enhances the technical credibility and practical value of the response."
+      }
+    },
+    "query_4": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Domain Expert response provides more structured, comprehensive security guidance with 10 numbered best practices that are more actionable. The emphasis on using established libraries and proper error handling is particularly valuable. Dataset B covers many similar points but is less systematically organized."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Domain Expert role is highly appropriate for OAuth 2.0 security implementation guidance, conveying deep technical expertise and security knowledge. This persona naturally provides authoritative security recommendations. Dataset B is appropriate but lacks the specialized security expertise framing."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 5,
+        "explanation": "Both responses are comprehensive in coverage. Dataset A provides 10 structured points covering key security aspects, while Dataset B covers similar ground with additional details on some aspects like OpenID Connect and monitoring. Both are thorough and complete."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A excels in actionability with its numbered list of specific, implementable security measures. The structured format makes it easier for developers to follow and implement. Dataset B is actionable but less systematically organized for implementation."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its Domain Expert authority, structured presentation, and systematic coverage of security best practices. The expert persona significantly enhances the credibility and practical value of the security guidance."
+      }
+    },
+    "query_5": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Practical Advisor role provides more targeted startup-specific guidance, considering factors like hiring plans, team growth, and long-term maintenance needs. The advice is more contextually relevant to startup constraints and decisions. Dataset B provides good technical comparison but less startup-focused practical advice."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Practical Advisor role is perfectly suited for providing startup-focused technology selection guidance. This persona naturally considers practical business constraints, hiring, and scalability concerns that are crucial for startup decisions. Dataset B is technically appropriate but lacks the business-focused perspective."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more complete startup-focused analysis, considering ecosystem, job market, team scaling, and adaptation to changing requirements. Dataset B covers technical aspects thoroughly but provides less comprehensive business and practical considerations for startups."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more actionable decision criteria specifically relevant to startups: team experience, hiring plans, speed requirements, and scaling considerations. This makes the decision framework more immediately applicable to startup contexts."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality by providing startup-specific practical advice that goes beyond technical comparison to address real business concerns. The Practical Advisor persona significantly enhances the relevance and applicability of the guidance."
+      }
+    },
+    "query_6": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Practical Advisor approach provides more actionable, step-by-step guidance for salary negotiation with specific strategies and timing considerations. The structured 8-point approach is more immediately useful than Dataset B's more general advice, though both cover important points."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Practical Advisor role is highly appropriate for salary negotiation guidance, naturally providing business-focused, strategic advice that considers both employee and employer perspectives. Dataset B is appropriate but lacks the strategic advisor framework."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 5,
+        "explanation": "Both responses comprehensively cover salary negotiation strategies. Dataset A provides structured steps with timing and framing advice, while Dataset B includes additional details about total compensation and specific research resources. Both are thorough and complete."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A excels in actionability with its clear 8-step process that readers can immediately follow. The structured approach with specific actions (prepare specific numbers, document achievements, frame as business case) is more immediately implementable."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its strategic Practical Advisor perspective and structured, actionable approach. The advisor persona enhances the practical value and strategic thinking in the response."
+      }
+    },
+    "query_7": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 3,
+        "explanation": "Dataset A's Socratic Guide approach is exceptionally helpful by asking probing questions that guide the learner to self-discovery and personalized learning paths. This interactive approach is more engaging and effective for beginners. Dataset B provides good structured information but is more didactic and less personalized."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Socratic Guide role is perfectly appropriate for helping complete beginners, using questioning to guide discovery and ensure learning is tailored to individual interests and background. This pedagogical approach is ideal for adult learning. Dataset B is informative but uses a more traditional instructional approach."
+      },
+      "completeness": {
+        "score_a": 4,
+        "score_b": 5,
+        "explanation": "Dataset B provides more complete information about specific resources, tools, and a structured learning path with timelines. Dataset A focuses more on guiding self-discovery and understanding motivation, which is complete for its approach but provides fewer concrete resources."
+      },
+      "actionability": {
+        "score_a": 4,
+        "score_b": 5,
+        "explanation": "Dataset B is more immediately actionable with specific courses, tools, books, and a structured learning progression. Dataset A's questions are valuable for planning but require the learner to provide more information before specific actions can be recommended."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its innovative Socratic approach that personalizes learning guidance. While Dataset B provides more immediate information, Dataset A's interactive, questioning approach is more effective for adult learning and shows sophisticated pedagogical understanding."
+      }
+    },
+    "query_8": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Domain Expert response provides more systematic, expert-level debugging guidance with specific tools and methodologies. The 10-point structured approach with specific tool recommendations and the emphasis on measuring before optimizing shows deeper expertise. Dataset B covers similar ground but less systematically."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Domain Expert role is highly appropriate for Node.js performance debugging, naturally conveying deep technical knowledge and systematic troubleshooting expertise. The persona enhances credibility for complex technical guidance. Dataset B is appropriate but lacks the specialized expert framework."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 5,
+        "explanation": "Both responses comprehensively cover Node.js performance debugging. Dataset A provides systematic coverage with specific tools and methodologies, while Dataset B covers similar tools and techniques with additional details on some aspects like heap snapshots and load testing."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A excels in actionability with its structured 10-point approach and specific tool recommendations (clinic.js, --prof flag, etc.). The systematic methodology with emphasis on baseline measurement is more immediately implementable for developers."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its Domain Expert authority and systematic debugging methodology. The expert persona significantly enhances the technical credibility and practical value of the performance debugging guidance."
+      }
+    },
+    "query_9": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Practical Advisor approach provides more strategic, business-focused guidance for convincing executives about AI adoption. The emphasis on ROI, competitive analysis, and addressing concerns upfront is more tailored to C-level communication needs. Dataset B provides good advice but is less strategically focused."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Practical Advisor role is perfectly appropriate for guidance on convincing executives, naturally providing business-strategic perspective that considers organizational dynamics and decision-making processes. Dataset B is appropriate but lacks the strategic business advisor framework."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 5,
+        "explanation": "Both responses comprehensively cover strategies for convincing CEOs about AI adoption. Dataset A focuses on business case development and stakeholder management, while Dataset B provides similar coverage with additional emphasis on implementation and security concerns."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more actionable strategic advice with specific steps for building business cases, managing pilot projects, and addressing executive concerns. The business-focused approach is more immediately applicable in corporate settings."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its strategic Practical Advisor perspective that understands executive decision-making and provides business-focused argumentation strategies. The advisor persona significantly enhances the strategic value of the guidance."
+      }
+    },
+    "query_10": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Domain Expert response provides more sophisticated analysis of blockchain technology, emphasizing trade-offs and decision-making criteria. The guidance on when blockchain is appropriate versus traditional databases shows deeper expertise. Dataset B provides good coverage but is more encyclopedic and less analytical."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Domain Expert role is highly appropriate for explaining complex blockchain technology, naturally conveying deep technical understanding and practical implementation experience. This persona enhances credibility for technology assessment guidance. Dataset B is informative but lacks the expert analytical framework."
+      },
+      "completeness": {
+        "score_a": 4,
+        "score_b": 5,
+        "explanation": "Dataset B provides more complete coverage of blockchain types (public, private, consortium) and includes more detailed discussion of consensus mechanisms and specific applications. Dataset A focuses more on decision-making and trade-offs but covers fewer technical details."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A excels in actionability by providing clear decision criteria for when to use blockchain versus traditional solutions. The emphasis on trade-offs and appropriate use cases makes it more immediately useful for technology decisions."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its Domain Expert analysis that goes beyond explanation to provide strategic technology selection guidance. The expert perspective significantly enhances the practical value for decision-making."
+      }
+    },
+    "query_11": {
+      "winner": "A",
+      "helpfulness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A's Practical Advisor approach provides more systematic guidance for diagnosing and improving team productivity. The emphasis on gathering data first, identifying root causes, and the questioning approach to understand specific challenges is more sophisticated and helpful for managers."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Practical Advisor role is perfectly suited for team productivity guidance, naturally providing management-focused perspective that considers organizational dynamics and systematic problem-solving. Dataset B is appropriate but lacks the strategic management framework."
+      },
+      "completeness": {
+        "score_a": 5,
+        "score_b": 5,
+        "explanation": "Both responses comprehensively cover team productivity improvement strategies. Dataset A emphasizes diagnostic approach and systematic problem-solving, while Dataset B provides detailed coverage of specific productivity factors and measurement approaches. Both are thorough."
+      },
+      "actionability": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A provides more actionable management guidance with its systematic diagnostic approach and emphasis on understanding root causes before implementing solutions. The questioning framework helps managers apply the advice more effectively to their specific situations."
+      },
+      "overall_quality": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "Dataset A demonstrates superior overall quality through its sophisticated Practical Advisor approach that emphasizes systematic diagnosis and tailored solutions. The advisor persona significantly enhances the management effectiveness of the guidance."
+      }
+    },
+    "query_12": {
+      "winner": "Tie",
+      "helpfulness": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses provide comprehensive, helpful explanations of Python. Dataset A's Domain Expert perspective provides authoritative coverage of Python's characteristics and applications. Dataset B covers similar information with slightly more detail on implementations and community aspects. Both are equally helpful for understanding Python."
+      },
+      "appropriateness": {
+        "score_a": 5,
+        "score_b": 4,
+        "explanation": "The Domain Expert role is appropriate for providing authoritative information about programming languages, naturally conveying technical expertise and comprehensive knowledge. Dataset B is appropriate but lacks the specialized expert framing that enhances credibility."
+      },
+      "completeness": {
+        "score_a": 4,
+        "score_b": 5,
+        "explanation": "Dataset B provides more complete coverage with additional details about Python's history, creator, specific implementations (CPython, PyPy, Jython), and more comprehensive discussion of the ecosystem and community aspects. Dataset A covers core concepts well but with less comprehensive detail."
+      },
+      "actionability": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses provide actionable information for someone learning about Python, including its applications, characteristics, and when to use it. Neither provides specific next steps, but both give sufficient information for decision-making about Python adoption."
+      },
+      "overall_quality": {
+        "score_a": 4,
+        "score_b": 4,
+        "explanation": "Both responses demonstrate high quality in their explanations of Python. Dataset A benefits from Domain Expert authority and focused presentation, while Dataset B provides more comprehensive detail and historical context. The quality difference is minimal, resulting in a tie."
+      }
+    }
+  },
+  "summary": {
+    "overall_winner": "A",
+    "wins_a": 11,
+    "wins_b": 0,
+    "ties": 1,
+    "key_insights": [
+      "Role-based responses in Dataset A consistently provided more appropriate expertise framing for different types of queries",
+      "Research Librarian role excelled at providing authoritative, current information with proper sourcing context",
+      "Domain Expert role significantly enhanced technical credibility and provided more sophisticated analysis of complex topics",
+      "Practical Advisor role was highly effective for business and strategic guidance, considering real-world constraints and stakeholder needs",
+      "Socratic Guide role demonstrated superior pedagogical approach for learning guidance, though provided less immediate concrete information",
+      "Role selection showed strong appropriateness across all queries, matching expertise type to information needs",
+      "Structured presentation and systematic approaches were more prevalent in role-based responses",
+      "Role-based responses generally provided more targeted, context-specific guidance rather than generic information",
+      "The predefined role selection in Dataset A demonstrated sophisticated understanding of matching expertise to query type",
+      "Control responses in Dataset B were consistently good but lacked the specialized perspective and authority that roles provided"
+    ],
+    "role_effectiveness_analysis": {
+      "research_librarian": "Highly effective for factual, current information queries (queries 1-2). Provided authoritative sourcing and comprehensive coverage of current developments.",
+      "domain_expert": "Exceptionally effective for technical explanations (queries 3-4, 8, 10, 12). Enhanced credibility and provided sophisticated analysis with practical implementation guidance.",
+      "practical_advisor": "Highly effective for business and strategic guidance (queries 5-6, 9, 11). Provided context-aware advice considering real-world constraints and stakeholder needs.",
+      "socratic_guide": "Highly effective for learning guidance (query 7). Demonstrated superior pedagogical approach through questioning and personalization, though less immediately informative."
+    }
+  }
+}
