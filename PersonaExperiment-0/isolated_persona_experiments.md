@@ -1,4 +1,5 @@
 # Isolated Persona Switching Experiments
+Version 0.2
 
 ## Experimental Strategy: Isolate Each Variable
 
