@@ -27,7 +27,8 @@ Consider real-world constraints and provide concrete next steps the user can imp
 ```
 
 ### Test Protocol:
-- Manually assign each query to most appropriate hardcoded role
+- Use 7 subagents for this test condition  
+- Manually assign each query to most appropriate hardcoded role (Research Librarian for pricing/facts, Domain Expert for technical questions, Practical Advisor for guidance)
 - Compare against control (no role instruction)
 - Measures: **Pure role effectiveness**
 
@@ -50,6 +51,7 @@ Choose one role, indicate it with [Role: X], then respond in that role.
 ```
 
 ### Test Protocol:
+- Use 7 subagents for this test condition
 - Same queries as Test 1
 - Compare role selection accuracy vs. human judgment
 - Compare response quality vs. Test 1 hardcoded versions
@@ -69,6 +71,7 @@ Indicate your chosen role with [Role: X] and respond accordingly.
 ```
 
 ### Test Protocol:
+- Use 7 subagents for this test condition
 - Same queries as previous tests
 - Track what roles the model invents
 - Compare response quality vs. predefined role versions
@@ -92,6 +95,7 @@ Indicate your chosen role with [Role: X] and respond accordingly.
 ```
 
 ### Test Protocol:
+- Use 7 subagents for this test condition
 - Same queries as previous tests
 - Add evaluation criteria for "tone consistency" and "natural interaction feel"
 - Compare effectiveness vs. pure dynamic approach (Test 3)
@@ -135,11 +139,15 @@ Indicate your chosen role with [Role: X] and respond accordingly.
 12. "Tell me about Python" *(Domain Expert for technical details, Practical Advisor for learning path, or Socratic Guide for needs assessment?)*
 
 ### Experimental Timeline
-**Each test takes ~30 minutes:**
-- Response generation: 15 min
-- Evaluation: 15 min
+**Each test condition requires:**
+- 7 subagents generating responses to 12 queries
+- 14 evaluators (7 pairwise + 7 absolute) with bias controls
+- A/B position randomization and role indicator hiding
 
-**Total time for all 4 tests: 2 hours**
+**Estimated timeline:**
+- Response generation: ~45 min per test condition
+- Evaluation setup and execution: ~60 min per test condition
+- **Total time for all 4 tests: ~7 hours**
 
 ## Expected Insights
 

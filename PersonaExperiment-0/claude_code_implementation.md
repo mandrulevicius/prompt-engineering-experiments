@@ -23,17 +23,18 @@ mkdir responses blinded_evaluation results
 Create subagents for each test condition and generate responses:
 
 **Test Conditions to Implement:**
-1. **Control** (3 subagents): No special instructions, standard helpful responses
-2. **Test 1 Hardcoded** (3 subagents each): Research Librarian, Domain Expert, Practical Advisor prompts
-3. **Test 2 Predefined Selection** (3 subagents): Auto-select from predefined roles 
-4. **Test 3 Dynamic Roles** (3 subagents): Create custom roles on-demand
-5. **Test 4 Dynamic + Tone** (3 subagents): Dynamic roles with tone consistency
+1. **Control** (7 subagents): No special instructions, standard helpful responses
+2. **Test 1 Hardcoded** (7 subagents): For each query, assign one of three pre-prompts (Research Librarian, Domain Expert, Practical Advisor) based on query type
+3. **Test 2 Predefined Selection** (7 subagents): Auto-select from predefined roles 
+4. **Test 3 Dynamic Roles** (7 subagents): Create custom roles on-demand
+5. **Test 4 Dynamic + Tone** (7 subagents): Dynamic roles with tone consistency
 
 **Response Generation Requirements:**
 - Each subagent processes all 12 queries from the experimental framework
 - Output format: JSON files named by condition (e.g., `test_1_hardcoded_responses_agent_1.json`)
 - JSON structure: `{"query_1": "response text", "query_2": "response text", ...}`
 - Include role indicators where applicable: `[Role: X] response text`
+- **IMPORTANT**: For Test 1, manually assign the most appropriate pre-prompt (Research Librarian, Domain Expert, or Practical Advisor) for each query type
 
 ### Phase 3: Bias Elimination
 
@@ -56,38 +57,42 @@ for original, blinded in randomization_key.items():
 
 ### Phase 4: Evaluation Setup
 
-**Create 6 Evaluator Subagents:**
+**Create 14 Evaluator Subagents:**
 
-**Pairwise Evaluators (1-3):**
+**Pairwise Evaluators (1-7):**
 - Compare each test condition vs control
 - Use pairwise evaluator prompt from artifacts
-- Randomize A/B order within comparisons
+- **CRITICAL**: Randomize A/B positioning for each comparison to eliminate position bias
+- **CRITICAL**: Hide all role indicators `[Role: X]` from responses before showing to evaluators
 - Output: `pairwise_evaluator_X_results.json`
 
-**Absolute Evaluators (4-6):**  
+**Absolute Evaluators (8-14):**  
 - Score each dataset independently
 - Use absolute scoring prompt from artifacts
 - No comparisons, just individual ratings
+- **CRITICAL**: Hide all role indicators `[Role: X]` from responses before showing to evaluators
 - Output: `absolute_evaluator_X_results.json`
 
 **Evaluation Execution:**
 ```python
 # For pairwise evaluations
 for test_condition in ["test_1", "test_2", "test_3", "test_4"]:
-    for evaluator in [1, 2, 3]:
+    for evaluator in [1, 2, 3, 4, 5, 6, 7]:
         compare_datasets(
             condition_file=get_blinded_filename(test_condition),
             control_file=get_blinded_filename("control"),
             evaluator_id=evaluator,
-            randomize_order=True
+            randomize_ab_positioning=True,  # CRITICAL: randomize A/B positions
+            hide_role_indicators=True       # CRITICAL: strip [Role: X] tags
         )
 
 # For absolute evaluations  
 for dataset_file in blinded_files:
-    for evaluator in [4, 5, 6]:
+    for evaluator in [8, 9, 10, 11, 12, 13, 14]:
         score_dataset(
             dataset_file=dataset_file,
-            evaluator_id=evaluator
+            evaluator_id=evaluator,
+            hide_role_indicators=True  # CRITICAL: strip [Role: X] tags
         )
 ```
 

@@ -1,6 +1,6 @@
 # Evaluator Prompts for Persona Testing
 
-## Pairwise Evaluator Prompt (Evaluators 1-3)
+## Pairwise Evaluator Prompt (Evaluators 1-7)
 
 ```
 You are comparing two responses to the same question. You don't know what methods generated these responses.
@@ -30,7 +30,7 @@ Overall: [A/B/Tie] - [explanation]
 Overall Winner: [A/B/Tie]
 ```
 
-## Absolute Scoring Evaluator Prompt (Evaluators 4-6)
+## Absolute Scoring Evaluator Prompt (Evaluators 8-14)
 
 ```
 You are rating the quality of a response to a question. Rate this response independently without comparison to other responses.
@@ -100,12 +100,12 @@ Response B: {RESPONSE_B}
 Create an automated evaluation system with proper bias isolation:
 
 ### Phase 1: Response Generation
-1. **Create 3 subagents** for each test condition:
-   - 3 agents with Test 1 prompts (hardcoded Research Librarian, Domain Expert, Practical Advisor)
-   - 3 agents with Test 2 prompt (predefined role selection)
-   - 3 agents with Test 3 prompt (dynamic role creation)  
-   - 3 agents with Test 4 prompt (dynamic + tone consistency)
-   - 3 control agents (no special instructions)
+1. **Create 7 subagents** for each test condition:
+   - 7 agents with Test 1 prompts (assign appropriate hardcoded role per query: Research Librarian, Domain Expert, or Practical Advisor)
+   - 7 agents with Test 2 prompt (predefined role selection)
+   - 7 agents with Test 3 prompt (dynamic role creation)  
+   - 7 agents with Test 4 prompt (dynamic + tone consistency)
+   - 7 control agents (no special instructions)
 
 2. **Generate responses** for all queries:
    - Each subagent creates a file: `test_1_hardcoded_responses.json`, `test_2_predefined_responses.json`, etc.
@@ -123,19 +123,21 @@ Create an automated evaluation system with proper bias isolation:
    - Evaluators will only see random filenames, not condition names
 
 ### Phase 3: Dual Evaluation System
-5. **Create 6 evaluator subagents**:
-   - **Evaluators 1-3**: Pairwise comparison mode
-   - **Evaluators 4-6**: Absolute scoring mode
+5. **Create 14 evaluator subagents**:
+   - **Evaluators 1-7**: Pairwise comparison mode
+   - **Evaluators 8-14**: Absolute scoring mode
 
-6. **Run pairwise evaluations** (Evaluators 1-3):
+6. **Run pairwise evaluations** (Evaluators 1-7):
+   - Main agent preprocesses responses: randomize A/B positioning and strip all `[Role: X]` indicators
    - Compare each test condition vs control using blinded filenames
-   - Randomize A/B order within each comparison
+   - Evaluators receive clean, randomized response pairs
    - Output: `pairwise_evaluator_1_results.json`, etc.
 
-7. **Run absolute evaluations** (Evaluators 4-6):
+7. **Run absolute evaluations** (Evaluators 8-14):
+   - Main agent preprocesses responses: strip all `[Role: X]` indicators  
    - Score each blinded dataset independently (no comparisons)
-   - Each dataset gets absolute quality rating
-   - Output: `absolute_evaluator_1_results.json`, etc.
+   - Evaluators receive clean responses without role indicators
+   - Output: `absolute_evaluator_8_results.json`, etc.
 
 ### Phase 4: Analysis
 7. **De-randomize and analyze**:
