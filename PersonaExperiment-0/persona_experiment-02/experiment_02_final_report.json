@@ -1,0 +1,1419 @@
+{
+  "experiment_info": {
+    "name": "Persona Experiment 02 - Statistical Analysis",
+    "date": "2025-08-25T06:51:59.696238",
+    "description": "Analysis of persona switching effectiveness on AI response quality",
+    "evaluators": {
+      "pairwise": [
+        "evaluator_1 (Test 1: Hardcoded vs Control)",
+        "evaluator_2 (Test 2: Predefined vs Control)",
+        "evaluator_3 (Test 3: Dynamic vs Control)"
+      ],
+      "absolute": [
+        "evaluator_4 (Test 1: Hardcoded only)",
+        "evaluator_5 (Test 2: Predefined only)",
+        "evaluator_6 (Test 4: Dynamic Tone only)"
+      ]
+    },
+    "query_categories": {
+      "research": [
+        "query_1",
+        "query_2",
+        "query_10"
+      ],
+      "technical": [
+        "query_3",
+        "query_4",
+        "query_8",
+        "query_12"
+      ],
+      "advisory": [
+        "query_5",
+        "query_6",
+        "query_7",
+        "query_9",
+        "query_11"
+      ]
+    },
+    "total_queries": 12
+  },
+  "executive_summary": {
+    "key_findings": [
+      "\u2705 Test personas show strong performance with 60.7% win rate",
+      "\ud83d\udcca Overall results are not statistically significant",
+      "\ud83c\udfaf 2 individual evaluators show significant results",
+      "  \u2022 test1 vs Control: 0.0% win rate (p=0.004)",
+      "  \u2022 test2 vs Control: 100.0% win rate (p=0.002)",
+      "\ud83c\udfc6 High average quality scores (4.42/5.0)",
+      "\ud83c\udfaf Strong performance in: advisory"
+    ],
+    "overall_test_win_rate": 0.6071428571428571,
+    "overall_statistical_significance": false,
+    "overall_p_value": 0.34492845088243484,
+    "average_quality_score": 4.416666666666667,
+    "recommendation": "\ud83e\udd14 CONSIDER - Strong performance but not statistically significant",
+    "confidence_level": "medium"
+  },
+  "detailed_results": {
+    "pairwise_evaluation": {
+      "evaluator_1": {
+        "test_condition": "test1",
+        "wins": {
+          "control": 9,
+          "test": 0,
+          "ties": 3
+        },
+        "total_comparisons": 12,
+        "non_tie_comparisons": 9,
+        "win_rates": {
+          "control": 1.0,
+          "test": 0.0
+        },
+        "statistical_tests": {
+          "binomial_test_two_sided": 0.00390625,
+          "significant_at_05": true
+        },
+        "confidence_interval": {
+          "test_win_rate_ci_95": [
+            0,
+            0.0
+          ]
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "winner": "tie",
+            "original_a": "control",
+            "original_b": "test1",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_10",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_11",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_12",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_2",
+            "winner": "tie",
+            "original_a": "control",
+            "original_b": "test1",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_3",
+            "winner": "control",
+            "original_a": "control",
+            "original_b": "test1",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_4",
+            "winner": "control",
+            "original_a": "control",
+            "original_b": "test1",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_5",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_6",
+            "winner": "tie",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_7",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_8",
+            "winner": "control",
+            "original_a": "test1",
+            "original_b": "control",
+            "test_condition": "test1"
+          },
+          {
+            "query_id": "query_9",
+            "winner": "control",
+            "original_a": "control",
+            "original_b": "test1",
+            "test_condition": "test1"
+          }
+        ]
+      },
+      "evaluator_2": {
+        "test_condition": "test2",
+        "wins": {
+          "control": 0,
+          "test": 10,
+          "ties": 2
+        },
+        "total_comparisons": 12,
+        "non_tie_comparisons": 10,
+        "win_rates": {
+          "control": 0.0,
+          "test": 1.0
+        },
+        "statistical_tests": {
+          "binomial_test_two_sided": 0.001953125,
+          "significant_at_05": true
+        },
+        "confidence_interval": {
+          "test_win_rate_ci_95": [
+            1.0,
+            1
+          ]
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_10",
+            "winner": "tie",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_11",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_12",
+            "winner": "tie",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_2",
+            "winner": "test2",
+            "original_a": "control",
+            "original_b": "test2",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_3",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_4",
+            "winner": "test2",
+            "original_a": "control",
+            "original_b": "test2",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_5",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_6",
+            "winner": "test2",
+            "original_a": "control",
+            "original_b": "test2",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_7",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_8",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          },
+          {
+            "query_id": "query_9",
+            "winner": "test2",
+            "original_a": "test2",
+            "original_b": "control",
+            "test_condition": "test2"
+          }
+        ]
+      },
+      "evaluator_3": {
+        "test_condition": "test3",
+        "wins": {
+          "control": 2,
+          "test": 7,
+          "ties": 3
+        },
+        "total_comparisons": 12,
+        "non_tie_comparisons": 9,
+        "win_rates": {
+          "control": 0.2222222222222222,
+          "test": 0.7777777777777778
+        },
+        "statistical_tests": {
+          "binomial_test_two_sided": 0.1796875,
+          "significant_at_05": false
+        },
+        "confidence_interval": {
+          "test_win_rate_ci_95": [
+            0.5061611674786324,
+            1
+          ]
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "winner": "test3",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_10",
+            "winner": "control",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_11",
+            "winner": "tie",
+            "original_a": "test3",
+            "original_b": "control",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_12",
+            "winner": "control",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_2",
+            "winner": "test3",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_3",
+            "winner": "test3",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_4",
+            "winner": "test3",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_5",
+            "winner": "tie",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_6",
+            "winner": "tie",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_7",
+            "winner": "test3",
+            "original_a": "test3",
+            "original_b": "control",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_8",
+            "winner": "test3",
+            "original_a": "control",
+            "original_b": "test3",
+            "test_condition": "test3"
+          },
+          {
+            "query_id": "query_9",
+            "winner": "test3",
+            "original_a": "test3",
+            "original_b": "control",
+            "test_condition": "test3"
+          }
+        ]
+      }
+    },
+    "absolute_evaluation": {
+      "evaluator_4": {
+        "test_condition": "test1",
+        "metric_statistics": {
+          "helpfulness": {
+            "mean": 4.416666666666667,
+            "std": 0.4930066485916346,
+            "median": 4,
+            "min": 4,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 9.95418074407504,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          "appropriateness": {
+            "mean": 4.666666666666667,
+            "std": 0.4714045207910317,
+            "median": 5,
+            "min": 4,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 12.247448713915892,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                8
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          "completeness": {
+            "mean": 4.5,
+            "std": 0.5,
+            "median": 5,
+            "min": 4,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 10.392304845413264,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                6
+              ],
+              [
+                4,
+                6
+              ]
+            ]
+          },
+          "actionability": {
+            "mean": 4.083333333333333,
+            "std": 0.6400954789890506,
+            "median": 4,
+            "min": 3,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 5.862839018422064,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          },
+          "overall": {
+            "mean": 4.416666666666667,
+            "std": 0.4930066485916346,
+            "median": 4,
+            "min": 4,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 9.95418074407504,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          }
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 959
+          },
+          {
+            "query_id": "query_2",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 993
+          },
+          {
+            "query_id": "query_3",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 1481
+          },
+          {
+            "query_id": "query_4",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1590
+          },
+          {
+            "query_id": "query_5",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 5,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 1526
+          },
+          {
+            "query_id": "query_6",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 5,
+              "completeness": 4,
+              "actionability": 5,
+              "overall": 4
+            },
+            "response_length": 1563
+          },
+          {
+            "query_id": "query_7",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 1586
+          },
+          {
+            "query_id": "query_8",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1633
+          },
+          {
+            "query_id": "query_9",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 5,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 1620
+          },
+          {
+            "query_id": "query_10",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 1791
+          },
+          {
+            "query_id": "query_11",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 1634
+          },
+          {
+            "query_id": "query_12",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 5,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 1965
+          }
+        ],
+        "n_queries": 12
+      },
+      "evaluator_5": {
+        "test_condition": "test2",
+        "metric_statistics": {
+          "helpfulness": {
+            "mean": 3.9166666666666665,
+            "std": 0.2763853991962833,
+            "median": 4,
+            "min": 3,
+            "max": 4,
+            "t_test_vs_neutral": {
+              "t_stat": 11.489125293076055,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                11
+              ],
+              [
+                3,
+                1
+              ]
+            ]
+          },
+          "appropriateness": {
+            "mean": 4.0,
+            "std": 0.0,
+            "median": 4,
+            "min": 4,
+            "max": 4,
+            "t_test_vs_neutral": {
+              "t_stat": 0,
+              "p_value_approx": 1.0,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                12
+              ]
+            ]
+          },
+          "completeness": {
+            "mean": 3.6666666666666665,
+            "std": 0.6236095644623237,
+            "median": 4,
+            "min": 2,
+            "max": 4,
+            "t_test_vs_neutral": {
+              "t_stat": 3.703280399090204,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                9
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          "actionability": {
+            "mean": 3.3333333333333335,
+            "std": 0.6236095644623236,
+            "median": 3,
+            "min": 2,
+            "max": 4,
+            "t_test_vs_neutral": {
+              "t_stat": 1.8516401995451033,
+              "p_value_approx": 0.1,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          "overall": {
+            "mean": 3.8333333333333335,
+            "std": 0.3726779962499649,
+            "median": 4,
+            "min": 3,
+            "max": 4,
+            "t_test_vs_neutral": {
+              "t_stat": 7.745966692414836,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                4,
+                10
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          }
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 3,
+              "actionability": 3,
+              "overall": 3
+            },
+            "response_length": 436
+          },
+          {
+            "query_id": "query_2",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 464
+          },
+          {
+            "query_id": "query_3",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 709
+          },
+          {
+            "query_id": "query_4",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 637
+          },
+          {
+            "query_id": "query_5",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 3,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 618
+          },
+          {
+            "query_id": "query_6",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 695
+          },
+          {
+            "query_id": "query_7",
+            "scores": {
+              "helpfulness": 3,
+              "appropriateness": 4,
+              "completeness": 2,
+              "actionability": 2,
+              "overall": 3
+            },
+            "response_length": 706
+          },
+          {
+            "query_id": "query_8",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 725
+          },
+          {
+            "query_id": "query_9",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 707
+          },
+          {
+            "query_id": "query_10",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 782
+          },
+          {
+            "query_id": "query_11",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 4,
+              "overall": 4
+            },
+            "response_length": 722
+          },
+          {
+            "query_id": "query_12",
+            "scores": {
+              "helpfulness": 4,
+              "appropriateness": 4,
+              "completeness": 4,
+              "actionability": 3,
+              "overall": 4
+            },
+            "response_length": 798
+          }
+        ],
+        "n_queries": 12
+      },
+      "evaluator_6": {
+        "test_condition": "test4",
+        "metric_statistics": {
+          "helpfulness": {
+            "mean": 5.0,
+            "std": 0.0,
+            "median": 5,
+            "min": 5,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 0,
+              "p_value_approx": 1.0,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                12
+              ]
+            ]
+          },
+          "appropriateness": {
+            "mean": 5.0,
+            "std": 0.0,
+            "median": 5,
+            "min": 5,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 0,
+              "p_value_approx": 1.0,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                12
+              ]
+            ]
+          },
+          "completeness": {
+            "mean": 5.0,
+            "std": 0.0,
+            "median": 5,
+            "min": 5,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 0,
+              "p_value_approx": 1.0,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                12
+              ]
+            ]
+          },
+          "actionability": {
+            "mean": 4.583333333333333,
+            "std": 0.4930066485916346,
+            "median": 5,
+            "min": 4,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 11.125260831613277,
+              "p_value_approx": 0.05,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          "overall": {
+            "mean": 5.0,
+            "std": 0.0,
+            "median": 5,
+            "min": 5,
+            "max": 5,
+            "t_test_vs_neutral": {
+              "t_stat": 0,
+              "p_value_approx": 1.0,
+              "significant_at_05": false
+            },
+            "score_distribution": [
+              [
+                5,
+                12
+              ]
+            ]
+          }
+        },
+        "detailed_results": [
+          {
+            "query_id": "query_1",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 900
+          },
+          {
+            "query_id": "query_2",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 1032
+          },
+          {
+            "query_id": "query_3",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 1483
+          },
+          {
+            "query_id": "query_4",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1543
+          },
+          {
+            "query_id": "query_5",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1580
+          },
+          {
+            "query_id": "query_6",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1801
+          },
+          {
+            "query_id": "query_7",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1808
+          },
+          {
+            "query_id": "query_8",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 1719
+          },
+          {
+            "query_id": "query_9",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 2102
+          },
+          {
+            "query_id": "query_10",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 2088
+          },
+          {
+            "query_id": "query_11",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 5,
+              "overall": 5
+            },
+            "response_length": 2136
+          },
+          {
+            "query_id": "query_12",
+            "scores": {
+              "helpfulness": 5,
+              "appropriateness": 5,
+              "completeness": 5,
+              "actionability": 4,
+              "overall": 5
+            },
+            "response_length": 2206
+          }
+        ],
+        "n_queries": 12
+      }
+    },
+    "query_type_analysis": {
+      "research": {
+        "pairwise": {
+          "evaluator_1": {
+            "test_condition": "test1",
+            "wins": {
+              "control": 1,
+              "test": 0,
+              "ties": 2
+            },
+            "test_win_rate": 0.0,
+            "p_value": 1.0,
+            "significant": false
+          },
+          "evaluator_2": {
+            "test_condition": "test2",
+            "wins": {
+              "control": 0,
+              "test": 2,
+              "ties": 1
+            },
+            "test_win_rate": 1.0,
+            "p_value": 0.5,
+            "significant": false
+          },
+          "evaluator_3": {
+            "test_condition": "test3",
+            "wins": {
+              "control": 1,
+              "test": 2,
+              "ties": 0
+            },
+            "test_win_rate": 0.6666666666666666,
+            "p_value": 1.0,
+            "significant": false
+          }
+        },
+        "absolute": {
+          "evaluator_4": {
+            "test_condition": "test1",
+            "metric_means": {
+              "helpfulness": 4.666666666666667,
+              "appropriateness": 4.666666666666667,
+              "completeness": 4.666666666666667,
+              "actionability": 3.6666666666666665,
+              "overall": 4.666666666666667
+            },
+            "n_queries": 3
+          },
+          "evaluator_5": {
+            "test_condition": "test2",
+            "metric_means": {
+              "helpfulness": 4.0,
+              "appropriateness": 4.0,
+              "completeness": 3.6666666666666665,
+              "actionability": 3.0,
+              "overall": 3.6666666666666665
+            },
+            "n_queries": 3
+          },
+          "evaluator_6": {
+            "test_condition": "test4",
+            "metric_means": {
+              "helpfulness": 5.0,
+              "appropriateness": 5.0,
+              "completeness": 5.0,
+              "actionability": 4.0,
+              "overall": 5.0
+            },
+            "n_queries": 3
+          }
+        }
+      },
+      "technical": {
+        "pairwise": {
+          "evaluator_1": {
+            "test_condition": "test1",
+            "wins": {
+              "control": 4,
+              "test": 0,
+              "ties": 0
+            },
+            "test_win_rate": 0.0,
+            "p_value": 0.125,
+            "significant": false
+          },
+          "evaluator_2": {
+            "test_condition": "test2",
+            "wins": {
+              "control": 0,
+              "test": 3,
+              "ties": 1
+            },
+            "test_win_rate": 1.0,
+            "p_value": 0.25,
+            "significant": false
+          },
+          "evaluator_3": {
+            "test_condition": "test3",
+            "wins": {
+              "control": 1,
+              "test": 3,
+              "ties": 0
+            },
+            "test_win_rate": 0.75,
+            "p_value": 0.625,
+            "significant": false
+          }
+        },
+        "absolute": {
+          "evaluator_4": {
+            "test_condition": "test1",
+            "metric_means": {
+              "helpfulness": 4.75,
+              "appropriateness": 4.75,
+              "completeness": 5.0,
+              "actionability": 4.25,
+              "overall": 4.75
+            },
+            "n_queries": 4
+          },
+          "evaluator_5": {
+            "test_condition": "test2",
+            "metric_means": {
+              "helpfulness": 4.0,
+              "appropriateness": 4.0,
+              "completeness": 4.0,
+              "actionability": 3.5,
+              "overall": 4.0
+            },
+            "n_queries": 4
+          },
+          "evaluator_6": {
+            "test_condition": "test4",
+            "metric_means": {
+              "helpfulness": 5.0,
+              "appropriateness": 5.0,
+              "completeness": 5.0,
+              "actionability": 4.5,
+              "overall": 5.0
+            },
+            "n_queries": 4
+          }
+        }
+      },
+      "advisory": {
+        "pairwise": {
+          "evaluator_1": {
+            "test_condition": "test1",
+            "wins": {
+              "control": 4,
+              "test": 0,
+              "ties": 1
+            },
+            "test_win_rate": 0.0,
+            "p_value": 0.125,
+            "significant": false
+          },
+          "evaluator_2": {
+            "test_condition": "test2",
+            "wins": {
+              "control": 0,
+              "test": 5,
+              "ties": 0
+            },
+            "test_win_rate": 1.0,
+            "p_value": 0.0625,
+            "significant": false
+          },
+          "evaluator_3": {
+            "test_condition": "test3",
+            "wins": {
+              "control": 0,
+              "test": 2,
+              "ties": 3
+            },
+            "test_win_rate": 1.0,
+            "p_value": 0.5,
+            "significant": false
+          }
+        },
+        "absolute": {
+          "evaluator_4": {
+            "test_condition": "test1",
+            "metric_means": {
+              "helpfulness": 4.0,
+              "appropriateness": 4.6,
+              "completeness": 4.0,
+              "actionability": 4.2,
+              "overall": 4.0
+            },
+            "n_queries": 5
+          },
+          "evaluator_5": {
+            "test_condition": "test2",
+            "metric_means": {
+              "helpfulness": 3.8,
+              "appropriateness": 4.0,
+              "completeness": 3.4,
+              "actionability": 3.4,
+              "overall": 3.8
+            },
+            "n_queries": 5
+          },
+          "evaluator_6": {
+            "test_condition": "test4",
+            "metric_means": {
+              "helpfulness": 5.0,
+              "appropriateness": 5.0,
+              "completeness": 5.0,
+              "actionability": 5.0,
+              "overall": 5.0
+            },
+            "n_queries": 5
+          }
+        }
+      }
+    }
+  },
+  "statistical_summary": {
+    "total_comparisons": {
+      "test_wins": 17,
+      "control_wins": 11,
+      "ties": 8,
+      "total": 36
+    },
+    "overall_performance": {
+      "test_win_rate": 0.6071428571428571,
+      "control_win_rate": 0.3928571428571429,
+      "p_value": 0.34492845088243484,
+      "statistically_significant": false
+    },
+    "significant_evaluators": [
+      {
+        "evaluator": "evaluator_1",
+        "test_condition": "test1",
+        "win_rate": 0.0,
+        "p_value": 0.00390625
+      },
+      {
+        "evaluator": "evaluator_2",
+        "test_condition": "test2",
+        "win_rate": 1.0,
+        "p_value": 0.001953125
+      }
+    ],
+    "category_performance": {
+      "research": {
+        "avg_win_rate": 0.5555555555555555,
+        "min_p_value": 0.5,
+        "significant": false,
+        "strong_performance": false
+      },
+      "technical": {
+        "avg_win_rate": 0.5833333333333334,
+        "min_p_value": 0.125,
+        "significant": false,
+        "strong_performance": false
+      },
+      "advisory": {
+        "avg_win_rate": 0.6666666666666666,
+        "min_p_value": 0.0625,
+        "significant": false,
+        "strong_performance": true
+      }
+    }
+  },
+  "production_recommendations": {
+    "implement_persona_switching": false,
+    "confidence_level": "medium",
+    "specific_recommendations": [
+      "Run larger-scale A/B tests to increase statistical power",
+      "Test specific persona approaches that showed promise",
+      "Consider hybrid approaches using personas for specific query types",
+      "Prioritize test2 approach (showed 100.0% win rate)",
+      "Consider category-specific persona implementation for: advisory"
+    ],
+    "risk_assessment": "medium",
+    "next_steps": [
+      "Design follow-up experiment with larger sample size",
+      "Focus testing on promising persona approaches",
+      "Analyze specific queries where personas excelled",
+      "Investigate user preference patterns"
+    ]
+  }
+}

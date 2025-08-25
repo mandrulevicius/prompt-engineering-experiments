@@ -1,0 +1,194 @@
+{
+  "query_1": {
+    "question": "How much does GitHub Copilot cost in 2025?",
+    "response": "GitHub Copilot pricing for 2025 offers multiple tiers: Free plan with 2,000 monthly code completions, Copilot Pro at $10/month ($100/year), Copilot Pro+ at $39/month ($390/year), Business at $19/user/month, and Enterprise with custom pricing. A key 2025 change is the introduction of premium request limits, where paid plans include unlimited GPT-4.1/4o usage but have monthly allowances for premium requests beyond the base allocation.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides current pricing information but more concise than comprehensive detail",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good factual response though could benefit from more structure",
+      "completeness": 3,
+      "completeness_reasoning": "Covers main pricing tiers but lacks detail on specific features and comparisons",
+      "actionability": 3,
+      "actionability_reasoning": "Basic pricing info provided but could use more context for decision making",
+      "overall": 3,
+      "overall_reasoning": "Adequate response with current pricing but lacks comprehensive detail and structure"
+    }
+  },
+  "query_2": {
+    "question": "What's the latest news about OpenAI's GPT models?",
+    "response": "Major OpenAI developments in 2025 include the August launch of GPT-5, their first unified AI model combining reasoning with fast responses, achieving 94.6% on AIME 2025 and 74.9% on SWE-bench. GPT-4.5 was released in February as a research preview, and GPT-4.1 series (including mini and nano variants) launched with improved coding and instruction following. GPT-5 shows 45% fewer hallucinations than GPT-4o and ChatGPT now serves 700 million weekly active users.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Covers major developments with key performance metrics and adoption statistics",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good research response with factual information and current developments",
+      "completeness": 4,
+      "completeness_reasoning": "Includes major releases with performance data and market impact metrics",
+      "actionability": 3,
+      "actionability_reasoning": "Provides useful context but limited specific guidance for implementation decisions",
+      "overall": 4,
+      "overall_reasoning": "Good news summary with relevant metrics and comprehensive coverage of major updates"
+    }
+  },
+  "query_3": {
+    "question": "Explain the CAP theorem and its practical implications",
+    "response": "The CAP theorem states that distributed systems can guarantee only two of three properties: Consistency (all nodes see the same data simultaneously), Availability (system remains operational), and Partition tolerance (system continues despite network failures). Practically, this means: CP systems (like traditional SQL databases) sacrifice availability during network partitions; AP systems (like NoSQL databases) accept eventual consistency; CA systems don't exist in distributed environments since network partitions are inevitable. Modern systems use techniques like eventual consistency, conflict-free replicated data types (CRDTs), and multi-version concurrency control to work within these constraints.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Explains the theorem clearly with practical examples and modern approaches",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good technical explanation appropriate for understanding distributed systems",
+      "completeness": 4,
+      "completeness_reasoning": "Covers all three properties with examples, though less detail on modern solutions",
+      "actionability": 3,
+      "actionability_reasoning": "Provides understanding but limited specific architectural guidance",
+      "overall": 4,
+      "overall_reasoning": "Solid explanation of CAP theorem with practical context and system examples"
+    }
+  },
+  "query_4": {
+    "question": "How do I implement OAuth 2.0 flow securely?",
+    "response": "Secure OAuth 2.0 implementation requires: 1) Use HTTPS everywhere and validate SSL certificates, 2) Implement PKCE (Proof Key for Code Exchange) for public clients, 3) Use state parameters to prevent CSRF attacks, 4) Validate redirect URIs against a whitelist, 5) Implement proper token storage (secure HTTP-only cookies or secure storage), 6) Use short-lived access tokens with refresh tokens, 7) Validate JWT tokens properly including signature verification, 8) Implement proper scope validation, 9) Use the authorization code flow for web applications, and 10) Regularly rotate client secrets and implement token revocation endpoints.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides good security checklist with key implementation requirements",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Appropriate security-focused response with practical implementation steps",
+      "completeness": 4,
+      "completeness_reasoning": "Covers essential security measures comprehensively in checklist format",
+      "actionability": 4,
+      "actionability_reasoning": "Clear actionable checklist of security requirements to implement",
+      "overall": 4,
+      "overall_reasoning": "Good security-focused implementation guide with comprehensive checklist approach"
+    }
+  },
+  "query_5": {
+    "question": "Should I use React or Vue for my startup's frontend?",
+    "response": "For a startup frontend, I'd recommend React due to: larger talent pool making hiring easier, extensive ecosystem with mature libraries, better long-term support from Meta, and superior development tools. React's component reusability and performance optimizations suit scaling needs. However, choose Vue if your team prefers simpler syntax, you need faster initial development, or you're building smaller applications. Consider your team's experience, project timeline, and long-term maintenance requirements. React's steeper learning curve pays dividends as your startup grows and needs to onboard developers quickly.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides clear recommendation with startup-specific reasoning and considerations",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good advisory response tailored to startup context and decision factors",
+      "completeness": 3,
+      "completeness_reasoning": "Covers key factors but could benefit from more detailed comparison framework",
+      "actionability": 3,
+      "actionability_reasoning": "Provides recommendation but limited concrete next steps for evaluation",
+      "overall": 4,
+      "overall_reasoning": "Good startup-focused recommendation with clear reasoning and practical considerations"
+    }
+  },
+  "query_6": {
+    "question": "How do I structure salary negotiations as a senior engineer?",
+    "response": "For senior engineer salary negotiations: 1) Research market rates using levels.fyi, Glassdoor, and industry reports, 2) Document your achievements with specific metrics and impact, 3) Time negotiations strategically (performance reviews, project completions), 4) Negotiate total compensation including equity, benefits, and professional development, 5) Present a range rather than a single number, 6) Be prepared to discuss why you deserve the increase, 7) Consider non-monetary benefits like flexible work arrangements, 8) Have a backup plan if initial requests are declined, and 9) Maintain professionalism throughout. Practice your pitch beforehand and be confident in your value proposition.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides comprehensive checklist approach with practical steps and considerations",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good professional advisory response with structured approach",
+      "completeness": 4,
+      "completeness_reasoning": "Covers research, documentation, timing, negotiation tactics, and alternative strategies",
+      "actionability": 4,
+      "actionability_reasoning": "Clear checklist format with specific actions and preparation steps",
+      "overall": 4,
+      "overall_reasoning": "Strong checklist-based guide with comprehensive coverage and practical approach"
+    }
+  },
+  "query_7": {
+    "question": "I want to learn machine learning but I'm a complete beginner",
+    "response": "Let's start your ML journey by understanding what specifically interests you - are you drawn to building recommendation systems, computer vision, natural language processing, or something else? This will help shape your learning path. Begin with fundamentals: statistics, linear algebra, and Python programming. I recommend starting with Andrew Ng's Machine Learning course, then practicing with scikit-learn on simple datasets. What's your current programming background? Do you prefer theoretical understanding or hands-on projects? Understanding your learning style will help me suggest the most effective progression through concepts like supervised learning, feature engineering, and model evaluation.",
+    "evaluation": {
+      "helpfulness": 3,
+      "helpfulness_reasoning": "Attempts to personalize approach but lacks specific structured pathway",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good educational approach with attempt to understand learner's preferences",
+      "completeness": 2,
+      "completeness_reasoning": "Mentions key resources but lacks structured progression and timeline",
+      "actionability": 2,
+      "actionability_reasoning": "Asks clarifying questions but provides limited immediate actionable steps",
+      "overall": 3,
+      "overall_reasoning": "Reasonable start with personalization attempt but needs more concrete guidance structure"
+    }
+  },
+  "query_8": {
+    "question": "Help me debug this performance issue in my Node.js app",
+    "response": "To debug Node.js performance issues: 1) Use profiling tools like clinic.js or built-in --prof flag to identify bottlenecks, 2) Check for memory leaks using heap snapshots and monitoring tools like pm2, 3) Analyze event loop blocking with tools like why-is-node-running, 4) Optimize database queries and implement connection pooling, 5) Review asynchronous code for proper error handling and avoid blocking operations, 6) Implement caching strategies (Redis, in-memory), 7) Use clustering to utilize multiple CPU cores, 8) Monitor garbage collection patterns, and 9) Check third-party dependencies for performance issues. Share your specific symptoms (high CPU, memory leaks, slow responses) for targeted debugging strategies.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides good systematic debugging approach with specific tools and strategies",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Appropriate technical troubleshooting response with systematic methodology",
+      "completeness": 4,
+      "completeness_reasoning": "Covers profiling, memory analysis, optimization strategies comprehensively",
+      "actionability": 4,
+      "actionability_reasoning": "Includes specific tools and commands with request for more details for targeted help",
+      "overall": 4,
+      "overall_reasoning": "Good technical debugging guide with systematic approach and specific tools"
+    }
+  },
+  "query_9": {
+    "question": "I need to convince my CEO to adopt AI tools",
+    "response": "To convince your CEO about AI tools, frame it around business impact: 1) Quantify productivity gains - show how AI reduces routine tasks by 30-50%, allowing focus on strategic work, 2) Present competitive advantage - competitors using AI will outpace you, 3) Demonstrate ROI with pilot projects showing measurable results, 4) Address concerns about job displacement by positioning AI as augmentation, not replacement, 5) Highlight cost savings from reduced errors and faster iteration cycles, 6) Show industry adoption rates and success stories from similar companies, and 7) Propose a phased implementation with clear metrics. Prepare a compelling presentation with real examples and financial projections.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides structured business case approach with ROI focus and risk mitigation",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good business advisory response with executive-appropriate arguments",
+      "completeness": 4,
+      "completeness_reasoning": "Covers productivity gains, competitive advantage, ROI calculations, and implementation strategy",
+      "actionability": 4,
+      "actionability_reasoning": "Provides clear structured approach with specific metrics and presentation framework",
+      "overall": 4,
+      "overall_reasoning": "Good business case framework with practical executive-focused arguments and structure"
+    }
+  },
+  "query_10": {
+    "question": "What should I know about blockchain?",
+    "response": "Blockchain is a distributed ledger technology that maintains data integrity through cryptographic hashing and consensus mechanisms. Key concepts include: immutability (records cannot be easily changed), decentralization (no single point of control), transparency (transactions are verifiable), and consensus algorithms (proof-of-work, proof-of-stake). Applications extend beyond cryptocurrency to supply chain tracking, smart contracts, digital identity, and decentralized finance (DeFi). However, consider limitations: energy consumption, scalability issues, regulatory uncertainty, and technical complexity. Blockchain is valuable when you need trustless transactions, audit trails, or removing intermediaries, but traditional databases often suffice for centralized applications.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides clear fundamental explanation with practical applications and limitations",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good educational response balancing concepts with practical considerations",
+      "completeness": 4,
+      "completeness_reasoning": "Covers core concepts, applications, and limitations with appropriate depth",
+      "actionability": 3,
+      "actionability_reasoning": "Provides understanding framework but limited specific implementation guidance",
+      "overall": 4,
+      "overall_reasoning": "Good educational overview with balanced coverage of concepts, applications, and limitations"
+    }
+  },
+  "query_11": {
+    "question": "I'm having trouble with my team's productivity",
+    "response": "Team productivity issues often stem from unclear goals, poor communication, or workflow inefficiencies. Start by identifying root causes: Are deadlines unrealistic? Is there role confusion? Are meetings too frequent? Solutions include: 1) Implement clear sprint planning and daily standups, 2) Use productivity metrics that matter (delivered value, not just hours), 3) Eliminate productivity theater (unnecessary meetings, reports), 4) Invest in team tools and automation, 5) Address individual blockers through one-on-ones, 6) Create psychological safety for honest feedback, and 7) Focus on outcomes over output. What specific productivity challenges are you observing? This will help tailor more targeted interventions.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides systematic diagnostic approach with targeted solutions and personalization",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good management advisory response with structured problem-solving approach",
+      "completeness": 4,
+      "completeness_reasoning": "Covers common issues, solutions, and asks for specifics to provide targeted advice",
+      "actionability": 4,
+      "actionability_reasoning": "Includes specific interventions and requests details for customized recommendations",
+      "overall": 4,
+      "overall_reasoning": "Good management guidance with systematic approach and attempt at personalized solutions"
+    }
+  },
+  "query_12": {
+    "question": "Tell me about Python",
+    "response": "Python is a high-level, interpreted programming language known for its readable syntax and versatility. Key features include dynamic typing, extensive standard library, cross-platform compatibility, and strong community support. Python excels in data science (pandas, NumPy, scikit-learn), web development (Django, Flask), automation, AI/ML, and scientific computing. Its philosophy emphasizes code readability and simplicity ('The Zen of Python'). Performance considerations: Python is slower than compiled languages but offers rapid development. Modern Python (3.9+) includes features like type hints, pattern matching, and performance improvements. Popular for beginners due to gentle learning curve, yet powerful enough for complex applications at companies like Google, Netflix, and Instagram.",
+    "evaluation": {
+      "helpfulness": 4,
+      "helpfulness_reasoning": "Provides comprehensive overview with key features, applications, and practical considerations",
+      "appropriateness": 4,
+      "appropriateness_reasoning": "Good educational response covering language essentials and ecosystem",
+      "completeness": 4,
+      "completeness_reasoning": "Covers features, applications, ecosystem, limitations, and learning path appropriately",
+      "actionability": 3,
+      "actionability_reasoning": "Provides good overview but limited specific starting points or next steps",
+      "overall": 4,
+      "overall_reasoning": "Good comprehensive Python overview with practical applications and learning context"
+    }
+  }
+}
