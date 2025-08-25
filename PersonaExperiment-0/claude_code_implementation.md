@@ -142,8 +142,9 @@ Create comprehensive report including:
    - Detailed methodology and results
    - Discussion of implications and next steps
 
-## Quality Controls
+## Experimental Methodology
 
+### Quality Controls
 - Verify all subagents generate expected number of responses
 - Check evaluator output format consistency
 - Calculate inter-evaluator agreement scores  
@@ -151,19 +152,31 @@ Create comprehensive report including:
 - Include confidence intervals for all estimates
 - Document any technical issues or limitations
 
-## Success Criteria
-
+### Success Criteria
 The experiment succeeds if it produces:
 - Clear evidence whether persona switching improves response quality
 - Identification of which specific approaches work best
 - Statistical confidence in the results (p < 0.05 for significant findings)
 - Actionable recommendations for production implementation
 
-## Timeline Estimate
+### Timeline Estimate
 - Setup and subagent creation: 1-2 hours
 - Response generation: 2-3 hours  
 - Evaluation execution: 3-4 hours
 - Analysis and reporting: 2-3 hours
 - **Total: 8-12 hours of automated execution**
+
+### Tool Limitations Discovered
+- **Task tool limits**: 5-hour limit requires planning for large experiments
+- **Batch generation needed**: For 35+ response files
+- **Incremental approach**: Maintains quality over speed
+- **Experimental integrity**: More important than scale
+
+### Methodological Success Factors
+- **Proper experimental design** maintained throughout
+- **Blinded evaluation** successfully implemented
+- **Bias elimination** with A/B randomization
+- **Statistical framework** correctly structured
+- **Query categorization** approach validated
 
 This should produce publication-quality experimental results that definitively answer whether persona switching improves AI assistant responses.

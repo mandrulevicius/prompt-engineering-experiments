@@ -217,6 +217,20 @@ Indicate your chosen role with [Role: X] and respond accordingly.
 - Tone consistency [cost/didn't cost] performance
 - Recommendation: Approach Z for production implementation"
 
+## Future Iteration Planning
+
+**Recommended Approach for Future Iterations:**
+1. **Plan for tool limits** - break large experiments into phases
+2. **Maintain blinding** - never generate responses directly
+3. **Scale systematically** - start with proof-of-concept, then scale up
+4. **Preserve methodology** - experimental rigor over convenience
+
+**Next Iteration Goals:**
+- **Advanced persona refinement** based on promising approaches identified
+- **Context-aware role selection** for dynamic persona assignment
+- **Multi-turn conversation personas** for sustained interactions
+- **Production optimization** for real-world deployment
+
 ## The Beauty of This Design
 
 1. **Clean variable isolation** - we know exactly what contributes to success/failure
