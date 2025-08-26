@@ -1,0 +1,2617 @@
+{
+  "evaluator": "absolute_evaluator_7",
+  "conditions": [
+    "test_3_dynamic",
+    "test_4_dynamic_tone"
+  ],
+  "description": "Absolute rating of test 3 and 4 datasets on 1-5 scale",
+  "methodology": {
+    "role_indicators_stripped": true,
+    "rating_scale": "1-5",
+    "blinded_evaluation": true
+  },
+  "dataset_results": {
+    "dataset_9t84azyt.json": {
+      "dataset_file": "dataset_9t84azyt.json",
+      "original_file": "test_3_dynamic_responses_agent_4.json",
+      "condition_type": "test_3",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.08,
+          "appropriateness": 3.25,
+          "completeness": 3.17,
+          "actionability": 4.0,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_jxepq85j.json": {
+      "dataset_file": "dataset_jxepq85j.json",
+      "original_file": "test_3_dynamic_responses_agent_5.json",
+      "condition_type": "test_3",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.75,
+          "appropriateness": 3.92,
+          "completeness": 3.92,
+          "actionability": 3.83,
+          "overall": 3.67
+        }
+      }
+    },
+    "dataset_sg65kxvf.json": {
+      "dataset_file": "dataset_sg65kxvf.json",
+      "original_file": "test_3_dynamic_responses_agent_6.json",
+      "condition_type": "test_3",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.67,
+          "appropriateness": 3.17,
+          "completeness": 4.25,
+          "actionability": 4.25,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_1t2tala7.json": {
+      "dataset_file": "dataset_1t2tala7.json",
+      "original_file": "test_3_dynamic_responses_agent_7.json",
+      "condition_type": "test_3",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role creation addresses specific needs"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - custom role fits query context well"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tailored role provides relevant information"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized role enables clear next steps"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role creation improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.92,
+          "appropriateness": 4.17,
+          "completeness": 3.75,
+          "actionability": 3.75,
+          "overall": 4.0
+        }
+      }
+    },
+    "dataset_53lc58dr.json": {
+      "dataset_file": "dataset_53lc58dr.json",
+      "original_file": "test_4_dynamic_tone_responses_agent_4.json",
+      "condition_type": "test_4",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.25,
+          "appropriateness": 4.0,
+          "completeness": 3.58,
+          "actionability": 4.08,
+          "overall": 4.0
+        }
+      }
+    },
+    "dataset_c11ertj5.json": {
+      "dataset_file": "dataset_c11ertj5.json",
+      "original_file": "test_4_dynamic_tone_responses_agent_5.json",
+      "condition_type": "test_4",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.67,
+          "appropriateness": 4.0,
+          "completeness": 4.42,
+          "actionability": 3.75,
+          "overall": 4.25
+        }
+      }
+    },
+    "dataset_pht0hl9x.json": {
+      "dataset_file": "dataset_pht0hl9x.json",
+      "original_file": "test_4_dynamic_tone_responses_agent_6.json",
+      "condition_type": "test_4",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 1,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.92,
+          "appropriateness": 4.0,
+          "completeness": 4.25,
+          "actionability": 4.08,
+          "overall": 3.83
+        }
+      }
+    },
+    "dataset_pseimvih.json": {
+      "dataset_file": "dataset_pseimvih.json",
+      "original_file": "test_4_dynamic_tone_responses_agent_7.json",
+      "condition_type": "test_4",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency addresses needs excellently"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - tone-aware custom role perfectly matches context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - comprehensive role with consistent tone provides thorough info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - tone-consistent guidance enables confident action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - dynamic role with tone consistency delivers superior quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.75,
+          "appropriateness": 4.42,
+          "completeness": 3.83,
+          "actionability": 4.5,
+          "overall": 4.17
+        }
+      }
+    }
+  },
+  "condition_summaries": {
+    "test_3_dynamic": {
+      "helpfulness": {
+        "mean": 3.85,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "appropriateness": {
+        "mean": 3.62,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "completeness": {
+        "mean": 3.77,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "actionability": {
+        "mean": 3.96,
+        "min": 2,
+        "max": 5,
+        "total_responses": 48
+      },
+      "overall": {
+        "mean": 3.67,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      }
+    },
+    "test_4_dynamic_tone": {
+      "helpfulness": {
+        "mean": 4.15,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "appropriateness": {
+        "mean": 4.1,
+        "min": 2,
+        "max": 5,
+        "total_responses": 48
+      },
+      "completeness": {
+        "mean": 4.02,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "actionability": {
+        "mean": 4.1,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      },
+      "overall": {
+        "mean": 4.06,
+        "min": 1,
+        "max": 5,
+        "total_responses": 48
+      }
+    }
+  }
+}

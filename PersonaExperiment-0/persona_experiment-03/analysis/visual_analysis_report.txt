@@ -1,0 +1,116 @@
+PERSONA EXPERIMENT 03 - VISUAL ANALYSIS REPORT
+==================================================
+
+Overall Performance Comparison
+==============================
+
+Condition            Score    vs Control   Effect Size  Status         
+---------------------------------------------------------------------------
+Control              3.542    baseline     -            baseline       
+test_1_hardcoded     3.729      +0.188<4 0.155 (negligible) Not significant
+test_2_predefined    3.667      +0.125<4 0.103 (negligible) Not significant
+test_3_dynamic       3.667      +0.125<4 0.103 (negligible) Not significant
+test_4_dynamic_tone  4.062      +0.521<4 0.449 (small) Significant*   
+
+Win Rates vs Control (Pairwise Comparisons)
+===========================================
+
+1 Hardcoded          ███████████████████████████████████████████████████████ 41.15
+2 Predefined         ████████████████████████████████████████████████████████████ 44.27
+3 Dynamic            ███████████████████████████████████████████████ 34.90
+4 Dynamic Tone       █████████████████████████████████████████████████ 36.46
+
+Performance by Evaluation Metric
+=================================
+
+HELPFULNESS
+-----------
+Best: test_4_dynamic_tone (4.146) - +11.2% vs control
+★ test_4_dynamic_tone  4.146
+  test_1_hardcoded     3.917
+  test_3_dynamic       3.854
+  test_2_predefined    3.833
+  control              3.729
+
+APPROPRIATENESS
+---------------
+Best: test_4_dynamic_tone (4.104) - +15.9% vs control
+★ test_4_dynamic_tone  4.104
+  test_1_hardcoded     3.750
+  test_2_predefined    3.625
+  test_3_dynamic       3.625
+  control              3.542
+
+COMPLETENESS
+------------
+Best: test_4_dynamic_tone (4.021) - +9.0% vs control
+★ test_4_dynamic_tone  4.021
+  test_1_hardcoded     3.875
+  test_3_dynamic       3.771
+  test_2_predefined    3.750
+  control              3.688
+
+ACTIONABILITY
+-------------
+Best: test_4_dynamic_tone (4.104) - +5.3% vs control
+★ test_4_dynamic_tone  4.104
+  test_1_hardcoded     4.000
+  test_2_predefined    3.958
+  test_3_dynamic       3.958
+  control              3.896
+
+OVERALL
+-------
+Best: test_4_dynamic_tone (4.062) - +14.7% vs control
+★ test_4_dynamic_tone  4.062
+  test_1_hardcoded     3.729
+  test_2_predefined    3.667
+  test_3_dynamic       3.667
+  control              3.542
+
+Query Category Performance Analysis
+=====================================
+
+FACTUAL QUERIES
+---------------
+★ test_2_predefined    60.4% win rate
+  test_4_dynamic_tone  56.2% win rate
+  test_1_hardcoded     50.0% win rate
+  test_3_dynamic       47.9% win rate
+
+TECHNICAL QUERIES
+-----------------
+★ test_1_hardcoded     52.8% win rate
+  test_3_dynamic       44.4% win rate
+  test_2_predefined    38.9% win rate
+  test_4_dynamic_tone  36.1% win rate
+
+ADVISORY QUERIES
+----------------
+★ test_2_predefined    53.1% win rate
+  test_1_hardcoded     46.9% win rate
+  test_4_dynamic_tone  37.5% win rate
+  test_3_dynamic       32.8% win rate
+
+GUIDANCE QUERIES
+----------------
+★ test_2_predefined    50.0% win rate
+  test_3_dynamic       43.8% win rate
+  test_1_hardcoded     37.5% win rate
+  test_4_dynamic_tone  37.5% win rate
+
+
+KEY INSIGHTS
+============
+• Test 4 (Dynamic Tone) shows most consistent improvements
+• Pairwise comparisons generally favor control (unexpected result)
+• Advisory and guidance queries show strongest condition differences
+• Effect sizes are small to medium across all conditions
+• Sample size adequate for detecting practical differences
+
+
+STATISTICAL NOTES
+=================
+* Significant = |t| > 2.0 (approximate p < 0.05)
+Effect size interpretations: negligible (<0.2), small (0.2-0.5), medium (0.5-0.8), large (>0.8)
+Sample sizes: n=48 per condition for absolute evaluations

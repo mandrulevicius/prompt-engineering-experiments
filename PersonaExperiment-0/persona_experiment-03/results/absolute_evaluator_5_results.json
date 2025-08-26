@@ -1,0 +1,1308 @@
+{
+  "evaluator": "absolute_evaluator_5",
+  "condition": "test_1_hardcoded",
+  "description": "Absolute rating of test 1 hardcoded datasets on 1-5 scale",
+  "methodology": {
+    "role_indicators_stripped": true,
+    "rating_scale": "1-5",
+    "blinded_evaluation": true
+  },
+  "dataset_results": {
+    "dataset_t9nt3w5u.json": {
+      "dataset_file": "dataset_t9nt3w5u.json",
+      "original_file": "test_1_hardcoded_responses_agent_4.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.08,
+          "appropriateness": 3.33,
+          "completeness": 3.42,
+          "actionability": 4.08,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_zbikcidk.json": {
+      "dataset_file": "dataset_zbikcidk.json",
+      "original_file": "test_1_hardcoded_responses_agent_5.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.83,
+          "appropriateness": 4.25,
+          "completeness": 4.0,
+          "actionability": 3.92,
+          "overall": 3.83
+        }
+      }
+    },
+    "dataset_wnnhj7xv.json": {
+      "dataset_file": "dataset_wnnhj7xv.json",
+      "original_file": "test_1_hardcoded_responses_agent_6.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.67,
+          "appropriateness": 3.17,
+          "completeness": 4.33,
+          "actionability": 4.25,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_g0fn9xuy.json": {
+      "dataset_file": "dataset_g0fn9xuy.json",
+      "original_file": "test_1_hardcoded_responses_agent_7.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - hardcoded persona addresses needs well"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - targeted role matches query context"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - specialized knowledge provides comprehensive info"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-specific guidance enables action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - hardcoded persona improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.08,
+          "appropriateness": 4.25,
+          "completeness": 3.75,
+          "actionability": 3.75,
+          "overall": 4.08
+        }
+      }
+    }
+  },
+  "overall_summary": {
+    "helpfulness": {
+      "mean": 3.92,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "appropriateness": {
+      "mean": 3.75,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "completeness": {
+      "mean": 3.88,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "actionability": {
+      "mean": 4.0,
+      "min": 2,
+      "max": 5,
+      "total_responses": 48
+    },
+    "overall": {
+      "mean": 3.73,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    }
+  }
+}

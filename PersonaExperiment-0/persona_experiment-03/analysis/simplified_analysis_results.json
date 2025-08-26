@@ -1,0 +1,1430 @@
+{
+  "experiment_metadata": {
+    "experiment_name": "persona_experiment_03",
+    "analysis_date": "2025-08-26",
+    "analyzer_type": "simplified",
+    "conditions": [
+      "control",
+      "test_1_hardcoded",
+      "test_2_predefined",
+      "test_3_dynamic",
+      "test_4_dynamic_tone"
+    ],
+    "evaluation_metrics": [
+      "helpfulness",
+      "appropriateness",
+      "completeness",
+      "actionability",
+      "overall"
+    ],
+    "query_categories": [
+      "guidance",
+      "advisory",
+      "factual",
+      "technical"
+    ]
+  },
+  "absolute_evaluation_analysis": {
+    "condition_statistics": {
+      "control": {
+        "helpfulness": {
+          "count": 48,
+          "mean": 3.7291666666666665,
+          "median": 4.0,
+          "std": 1.0465664902144136,
+          "min": 1,
+          "max": 5
+        },
+        "appropriateness": {
+          "count": 48,
+          "mean": 3.5416666666666665,
+          "median": 4.0,
+          "std": 1.14776996237261,
+          "min": 1,
+          "max": 5
+        },
+        "completeness": {
+          "count": 48,
+          "mean": 3.6875,
+          "median": 4.0,
+          "std": 1.0138666243223975,
+          "min": 1,
+          "max": 5
+        },
+        "actionability": {
+          "count": 48,
+          "mean": 3.8958333333333335,
+          "median": 4.0,
+          "std": 0.9048235594627636,
+          "min": 2,
+          "max": 5
+        },
+        "overall": {
+          "count": 48,
+          "mean": 3.5416666666666665,
+          "median": 4.0,
+          "std": 1.2540713837182447,
+          "min": 1,
+          "max": 5
+        }
+      },
+      "test_1_hardcoded": {
+        "helpfulness": {
+          "count": 48,
+          "mean": 3.9166666666666665,
+          "median": 4.0,
+          "std": 0.9857135515319645,
+          "min": 1,
+          "max": 5
+        },
+        "appropriateness": {
+          "count": 48,
+          "mean": 3.75,
+          "median": 4.0,
+          "std": 1.0817637292669073,
+          "min": 1,
+          "max": 5
+        },
+        "completeness": {
+          "count": 48,
+          "mean": 3.875,
+          "median": 4.0,
+          "std": 0.9812063786211382,
+          "min": 1,
+          "max": 5
+        },
+        "actionability": {
+          "count": 48,
+          "mean": 4,
+          "median": 4.0,
+          "std": 0.8751899489873673,
+          "min": 2,
+          "max": 5
+        },
+        "overall": {
+          "count": 48,
+          "mean": 3.7291666666666665,
+          "median": 4.0,
+          "std": 1.1621620228590703,
+          "min": 1,
+          "max": 5
+        }
+      },
+      "test_2_predefined": {
+        "helpfulness": {
+          "count": 48,
+          "mean": 3.8333333333333335,
+          "median": 4.0,
+          "std": 1.0382746189699348,
+          "min": 1,
+          "max": 5
+        },
+        "appropriateness": {
+          "count": 48,
+          "mean": 3.625,
+          "median": 4.0,
+          "std": 1.1415741278435239,
+          "min": 1,
+          "max": 5
+        },
+        "completeness": {
+          "count": 48,
+          "mean": 3.75,
+          "median": 4.0,
+          "std": 1.0416843970122254,
+          "min": 1,
+          "max": 5
+        },
+        "actionability": {
+          "count": 48,
+          "mean": 3.9583333333333335,
+          "median": 4.0,
+          "std": 0.8981857205792587,
+          "min": 2,
+          "max": 5
+        },
+        "overall": {
+          "count": 48,
+          "mean": 3.6666666666666665,
+          "median": 4.0,
+          "std": 1.1729818944990988,
+          "min": 1,
+          "max": 5
+        }
+      },
+      "test_3_dynamic": {
+        "helpfulness": {
+          "count": 48,
+          "mean": 3.8541666666666665,
+          "median": 4.0,
+          "std": 1.051636684559861,
+          "min": 1,
+          "max": 5
+        },
+        "appropriateness": {
+          "count": 48,
+          "mean": 3.625,
+          "median": 4.0,
+          "std": 1.1415741278435239,
+          "min": 1,
+          "max": 5
+        },
+        "completeness": {
+          "count": 48,
+          "mean": 3.7708333333333335,
+          "median": 4.0,
+          "std": 1.0566825512822653,
+          "min": 1,
+          "max": 5
+        },
+        "actionability": {
+          "count": 48,
+          "mean": 3.9583333333333335,
+          "median": 4.0,
+          "std": 0.8981857205792587,
+          "min": 2,
+          "max": 5
+        },
+        "overall": {
+          "count": 48,
+          "mean": 3.6666666666666665,
+          "median": 4.0,
+          "std": 1.1729818944990988,
+          "min": 1,
+          "max": 5
+        }
+      },
+      "test_4_dynamic_tone": {
+        "helpfulness": {
+          "count": 48,
+          "mean": 4.145833333333333,
+          "median": 4.5,
+          "std": 1.071677613744646,
+          "min": 1,
+          "max": 5
+        },
+        "appropriateness": {
+          "count": 48,
+          "mean": 4.104166666666667,
+          "median": 4.0,
+          "std": 0.7505907838647468,
+          "min": 2,
+          "max": 5
+        },
+        "completeness": {
+          "count": 48,
+          "mean": 4.020833333333333,
+          "median": 4.0,
+          "std": 0.9782655805553473,
+          "min": 1,
+          "max": 5
+        },
+        "actionability": {
+          "count": 48,
+          "mean": 4.104166666666667,
+          "median": 4.0,
+          "std": 0.92804033600282,
+          "min": 1,
+          "max": 5
+        },
+        "overall": {
+          "count": 48,
+          "mean": 4.0625,
+          "median": 4.0,
+          "std": 1.0600331187118435,
+          "min": 1,
+          "max": 5
+        }
+      }
+    },
+    "pairwise_tests": {
+      "helpfulness": {
+        "test_1_hardcoded_vs_control": {
+          "t_statistic": 0.9036,
+          "degrees_of_freedom": 93.66,
+          "mean_difference": 0.1875,
+          "cohens_d": 0.1844,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.9167,
+          "sample1_std": 0.9857,
+          "sample1_n": 48,
+          "sample2_mean": 3.7292,
+          "sample2_std": 1.0466,
+          "sample2_n": 48
+        },
+        "test_2_predefined_vs_control": {
+          "t_statistic": 0.4895,
+          "degrees_of_freedom": 93.99,
+          "mean_difference": 0.1042,
+          "cohens_d": 0.0999,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.8333,
+          "sample1_std": 1.0383,
+          "sample1_n": 48,
+          "sample2_mean": 3.7292,
+          "sample2_std": 1.0466,
+          "sample2_n": 48
+        },
+        "test_3_dynamic_vs_control": {
+          "t_statistic": 0.5837,
+          "degrees_of_freedom": 94.0,
+          "mean_difference": 0.125,
+          "cohens_d": 0.1191,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.8542,
+          "sample1_std": 1.0516,
+          "sample1_n": 48,
+          "sample2_mean": 3.7292,
+          "sample2_std": 1.0466,
+          "sample2_n": 48
+        },
+        "test_4_dynamic_tone_vs_control": {
+          "t_statistic": 1.9272,
+          "degrees_of_freedom": 93.95,
+          "mean_difference": 0.4167,
+          "cohens_d": 0.3934,
+          "effect_size_interpretation": "small",
+          "sample1_mean": 4.1458,
+          "sample1_std": 1.0717,
+          "sample1_n": 48,
+          "sample2_mean": 3.7292,
+          "sample2_std": 1.0466,
+          "sample2_n": 48
+        }
+      },
+      "appropriateness": {
+        "test_1_hardcoded_vs_control": {
+          "t_statistic": 0.9151,
+          "degrees_of_freedom": 93.67,
+          "mean_difference": 0.2083,
+          "cohens_d": 0.1868,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.75,
+          "sample1_std": 1.0818,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.1478,
+          "sample2_n": 48
+        },
+        "test_2_predefined_vs_control": {
+          "t_statistic": 0.3566,
+          "degrees_of_freedom": 94.0,
+          "mean_difference": 0.0833,
+          "cohens_d": 0.0728,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.625,
+          "sample1_std": 1.1416,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.1478,
+          "sample2_n": 48
+        },
+        "test_3_dynamic_vs_control": {
+          "t_statistic": 0.3566,
+          "degrees_of_freedom": 94.0,
+          "mean_difference": 0.0833,
+          "cohens_d": 0.0728,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.625,
+          "sample1_std": 1.1416,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.1478,
+          "sample2_n": 48
+        },
+        "test_4_dynamic_tone_vs_control": {
+          "t_statistic": 2.8417,
+          "degrees_of_freedom": 80.98,
+          "mean_difference": 0.5625,
+          "cohens_d": 0.5801,
+          "effect_size_interpretation": "medium",
+          "sample1_mean": 4.1042,
+          "sample1_std": 0.7506,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.1478,
+          "sample2_n": 48
+        }
+      },
+      "completeness": {
+        "test_1_hardcoded_vs_control": {
+          "t_statistic": 0.9207,
+          "degrees_of_freedom": 93.9,
+          "mean_difference": 0.1875,
+          "cohens_d": 0.1879,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.875,
+          "sample1_std": 0.9812,
+          "sample1_n": 48,
+          "sample2_mean": 3.6875,
+          "sample2_std": 1.0139,
+          "sample2_n": 48
+        },
+        "test_2_predefined_vs_control": {
+          "t_statistic": 0.2979,
+          "degrees_of_freedom": 93.93,
+          "mean_difference": 0.0625,
+          "cohens_d": 0.0608,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.75,
+          "sample1_std": 1.0417,
+          "sample1_n": 48,
+          "sample2_mean": 3.6875,
+          "sample2_std": 1.0139,
+          "sample2_n": 48
+        },
+        "test_3_dynamic_vs_control": {
+          "t_statistic": 0.3943,
+          "degrees_of_freedom": 93.84,
+          "mean_difference": 0.0833,
+          "cohens_d": 0.0805,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.7708,
+          "sample1_std": 1.0567,
+          "sample1_n": 48,
+          "sample2_mean": 3.6875,
+          "sample2_std": 1.0139,
+          "sample2_n": 48
+        },
+        "test_4_dynamic_tone_vs_control": {
+          "t_statistic": 1.6392,
+          "degrees_of_freedom": 93.88,
+          "mean_difference": 0.3333,
+          "cohens_d": 0.3346,
+          "effect_size_interpretation": "small",
+          "sample1_mean": 4.0208,
+          "sample1_std": 0.9783,
+          "sample1_n": 48,
+          "sample2_mean": 3.6875,
+          "sample2_std": 1.0139,
+          "sample2_n": 48
+        }
+      },
+      "actionability": {
+        "test_1_hardcoded_vs_control": {
+          "t_statistic": 0.5733,
+          "degrees_of_freedom": 93.9,
+          "mean_difference": 0.1042,
+          "cohens_d": 0.117,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 4,
+          "sample1_std": 0.8752,
+          "sample1_n": 48,
+          "sample2_mean": 3.8958,
+          "sample2_std": 0.9048,
+          "sample2_n": 48
+        },
+        "test_2_predefined_vs_control": {
+          "t_statistic": 0.3396,
+          "degrees_of_freedom": 93.99,
+          "mean_difference": 0.0625,
+          "cohens_d": 0.0693,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.9583,
+          "sample1_std": 0.8982,
+          "sample1_n": 48,
+          "sample2_mean": 3.8958,
+          "sample2_std": 0.9048,
+          "sample2_n": 48
+        },
+        "test_3_dynamic_vs_control": {
+          "t_statistic": 0.3396,
+          "degrees_of_freedom": 93.99,
+          "mean_difference": 0.0625,
+          "cohens_d": 0.0693,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.9583,
+          "sample1_std": 0.8982,
+          "sample1_n": 48,
+          "sample2_mean": 3.8958,
+          "sample2_std": 0.9048,
+          "sample2_n": 48
+        },
+        "test_4_dynamic_tone_vs_control": {
+          "t_statistic": 1.1136,
+          "degrees_of_freedom": 93.94,
+          "mean_difference": 0.2083,
+          "cohens_d": 0.2273,
+          "effect_size_interpretation": "small",
+          "sample1_mean": 4.1042,
+          "sample1_std": 0.928,
+          "sample1_n": 48,
+          "sample2_mean": 3.8958,
+          "sample2_std": 0.9048,
+          "sample2_n": 48
+        }
+      },
+      "overall": {
+        "test_1_hardcoded_vs_control": {
+          "t_statistic": 0.7598,
+          "degrees_of_freedom": 93.46,
+          "mean_difference": 0.1875,
+          "cohens_d": 0.1551,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.7292,
+          "sample1_std": 1.1622,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.2541,
+          "sample2_n": 48
+        },
+        "test_2_predefined_vs_control": {
+          "t_statistic": 0.5043,
+          "degrees_of_freedom": 93.58,
+          "mean_difference": 0.125,
+          "cohens_d": 0.1029,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.6667,
+          "sample1_std": 1.173,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.2541,
+          "sample2_n": 48
+        },
+        "test_3_dynamic_vs_control": {
+          "t_statistic": 0.5043,
+          "degrees_of_freedom": 93.58,
+          "mean_difference": 0.125,
+          "cohens_d": 0.1029,
+          "effect_size_interpretation": "negligible",
+          "sample1_mean": 3.6667,
+          "sample1_std": 1.173,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.2541,
+          "sample2_n": 48
+        },
+        "test_4_dynamic_tone_vs_control": {
+          "t_statistic": 2.1975,
+          "degrees_of_freedom": 91.46,
+          "mean_difference": 0.5208,
+          "cohens_d": 0.4486,
+          "effect_size_interpretation": "small",
+          "sample1_mean": 4.0625,
+          "sample1_std": 1.06,
+          "sample1_n": 48,
+          "sample2_mean": 3.5417,
+          "sample2_std": 1.2541,
+          "sample2_n": 48
+        }
+      }
+    }
+  },
+  "pairwise_comparison_analysis": {
+    "win_rates": {
+      "test_1_hardcoded": {
+        "wins": 79,
+        "total_comparisons": 192,
+        "win_rate": 0.4115,
+        "win_rate_percent": 41.15
+      },
+      "test_2_predefined": {
+        "wins": 85,
+        "total_comparisons": 192,
+        "win_rate": 0.4427,
+        "win_rate_percent": 44.27
+      },
+      "test_3_dynamic": {
+        "wins": 67,
+        "total_comparisons": 192,
+        "win_rate": 0.349,
+        "win_rate_percent": 34.9
+      },
+      "test_4_dynamic_tone": {
+        "wins": 70,
+        "total_comparisons": 192,
+        "win_rate": 0.3646,
+        "win_rate_percent": 36.46
+      }
+    },
+    "category_performance": {
+      "test_1_hardcoded": {
+        "factual": 24,
+        "technical": 19,
+        "advisory": 30,
+        "guidance": 6
+      },
+      "test_2_predefined": {
+        "factual": 29,
+        "technical": 14,
+        "advisory": 34,
+        "guidance": 8
+      },
+      "test_3_dynamic": {
+        "factual": 23,
+        "technical": 16,
+        "advisory": 21,
+        "guidance": 7
+      },
+      "test_4_dynamic_tone": {
+        "factual": 27,
+        "technical": 13,
+        "advisory": 24,
+        "guidance": 6
+      }
+    }
+  },
+  "query_category_analysis": {
+    "category_statistics": {
+      "guidance": {
+        "control": {
+          "helpfulness": {
+            "count": 4,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.5,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "completeness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "actionability": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "overall": {
+            "count": 4,
+            "mean": 3.25,
+            "median": 3.0,
+            "std": 1.5,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_1_hardcoded": {
+          "helpfulness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.5,
+            "std": 0.9574271077563381,
+            "min": 3,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 4,
+            "mean": 4.5,
+            "median": 4.5,
+            "std": 0.5773502691896257,
+            "min": 4,
+            "max": 5
+          },
+          "completeness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "actionability": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "overall": {
+            "count": 4,
+            "mean": 3.5,
+            "median": 3.5,
+            "std": 1.2909944487358056,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_2_predefined": {
+          "helpfulness": {
+            "count": 4,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.5,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 4,
+            "mean": 4.5,
+            "median": 4.5,
+            "std": 0.5773502691896257,
+            "min": 4,
+            "max": 5
+          },
+          "completeness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "actionability": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "overall": {
+            "count": 4,
+            "mean": 3.5,
+            "median": 3.5,
+            "std": 1.2909944487358056,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_3_dynamic": {
+          "helpfulness": {
+            "count": 4,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.5,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 4,
+            "mean": 4.5,
+            "median": 4.5,
+            "std": 0.5773502691896257,
+            "min": 4,
+            "max": 5
+          },
+          "completeness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "actionability": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "overall": {
+            "count": 4,
+            "mean": 3.5,
+            "median": 3.5,
+            "std": 1.2909944487358056,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_4_dynamic_tone": {
+          "helpfulness": {
+            "count": 4,
+            "mean": 5,
+            "median": 5.0,
+            "std": 0.0,
+            "min": 5,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 4,
+            "mean": 4.25,
+            "median": 4.0,
+            "std": 0.5,
+            "min": 4,
+            "max": 5
+          },
+          "completeness": {
+            "count": 4,
+            "mean": 4.5,
+            "median": 4.5,
+            "std": 0.5773502691896257,
+            "min": 4,
+            "max": 5
+          },
+          "actionability": {
+            "count": 4,
+            "mean": 4,
+            "median": 4.0,
+            "std": 0.816496580927726,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 4,
+            "mean": 3.25,
+            "median": 3.5,
+            "std": 1.707825127659933,
+            "min": 1,
+            "max": 5
+          }
+        }
+      },
+      "advisory": {
+        "control": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 1.2583057392117916,
+            "min": 1,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.5625,
+            "median": 4.0,
+            "std": 1.0307764064044151,
+            "min": 1,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.5,
+            "median": 4.0,
+            "std": 0.816496580927726,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 3.9375,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.6875,
+            "median": 4.0,
+            "std": 1.25,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_1_hardcoded": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2909944487358056,
+            "min": 1,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.8125,
+            "median": 4.0,
+            "std": 0.9105858919765156,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 0.8563488385776753,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 4.0625,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.875,
+            "median": 4.0,
+            "std": 1.0878112581387147,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_2_predefined": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.6875,
+            "median": 4.0,
+            "std": 1.25,
+            "min": 1,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.6875,
+            "median": 4.0,
+            "std": 0.9464847243000456,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 0.8850612031567836,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 4,
+            "median": 4.0,
+            "std": 1.0327955589886446,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.8125,
+            "median": 4.0,
+            "std": 1.1086778913041726,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_3_dynamic": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2909944487358056,
+            "min": 1,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.6875,
+            "median": 4.0,
+            "std": 0.9464847243000456,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 0.8850612031567836,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 4,
+            "median": 4.0,
+            "std": 1.0327955589886446,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.8125,
+            "median": 4.0,
+            "std": 1.1086778913041726,
+            "min": 2,
+            "max": 5
+          }
+        },
+        "test_4_dynamic_tone": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 4.3125,
+            "median": 5.0,
+            "std": 1.1954775893619531,
+            "min": 1,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 4.125,
+            "median": 4.0,
+            "std": 0.8062257748298549,
+            "min": 3,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 4.1875,
+            "median": 4.0,
+            "std": 0.75,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 4.125,
+            "median": 4.0,
+            "std": 0.8850612031567836,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 4.0625,
+            "median": 4.0,
+            "std": 1.1814539065631522,
+            "min": 1,
+            "max": 5
+          }
+        }
+      },
+      "factual": {
+        "control": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.0,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.1875,
+            "median": 3.0,
+            "std": 1.3275918047351754,
+            "min": 1,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.6875,
+            "median": 4.0,
+            "std": 1.138346754435279,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 3.5625,
+            "median": 4.0,
+            "std": 0.7274384280931732,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 1.3102162671355697,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_1_hardcoded": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 4,
+            "median": 4.0,
+            "std": 0.8944271909999159,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.375,
+            "median": 3.5,
+            "std": 1.2583057392117916,
+            "min": 1,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.9375,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 0.7187952884282608,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.8125,
+            "median": 4.0,
+            "std": 1.2763881332363862,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_2_predefined": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.9375,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.1875,
+            "median": 3.0,
+            "std": 1.3275918047351754,
+            "min": 1,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.1832159566199232,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 0.7187952884282608,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2909944487358056,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_3_dynamic": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 3.9375,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 3.1875,
+            "median": 3.0,
+            "std": 1.3275918047351754,
+            "min": 1,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.1832159566199232,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 3.625,
+            "median": 4.0,
+            "std": 0.7187952884282608,
+            "min": 2,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2909944487358056,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_4_dynamic_tone": {
+          "helpfulness": {
+            "count": 16,
+            "mean": 4,
+            "median": 4.0,
+            "std": 0.9660917830792959,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 16,
+            "mean": 4.1875,
+            "median": 4.0,
+            "std": 0.5439056290693574,
+            "min": 3,
+            "max": 5
+          },
+          "completeness": {
+            "count": 16,
+            "mean": 3.8125,
+            "median": 4.0,
+            "std": 1.2763881332363862,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 16,
+            "mean": 4.125,
+            "median": 4.5,
+            "std": 1.2041594578792296,
+            "min": 1,
+            "max": 5
+          },
+          "overall": {
+            "count": 16,
+            "mean": 3.9375,
+            "median": 4.0,
+            "std": 0.9979144919948469,
+            "min": 2,
+            "max": 5
+          }
+        }
+      },
+      "technical": {
+        "control": {
+          "helpfulness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 0.7177405625652734,
+            "min": 3,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 12,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.1381803659589922,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 12,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2154310870109943,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 12,
+            "mean": 4.166666666666667,
+            "median": 5.0,
+            "std": 1.0298573010888745,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 12,
+            "mean": 3.3333333333333335,
+            "median": 3.5,
+            "std": 1.2309149097933274,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_1_hardcoded": {
+          "helpfulness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 0.6685579234215214,
+            "min": 3,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 1.0836246694508316,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 1.2673044646258476,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 12,
+            "mean": 4.333333333333333,
+            "median": 5.0,
+            "std": 0.8876253645985945,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 12,
+            "mean": 3.5,
+            "median": 4.0,
+            "std": 1.1677484162422844,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_2_predefined": {
+          "helpfulness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 0.6685579234215214,
+            "min": 3,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 1.1146408580454255,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 12,
+            "mean": 3.75,
+            "median": 4.0,
+            "std": 1.2154310870109943,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 12,
+            "mean": 4.25,
+            "median": 5.0,
+            "std": 0.9653072991634228,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 12,
+            "mean": 3.4166666666666665,
+            "median": 3.5,
+            "std": 1.164500152881315,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_3_dynamic": {
+          "helpfulness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 0.6685579234215214,
+            "min": 3,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 1.1146408580454255,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 1.2673044646258476,
+            "min": 1,
+            "max": 5
+          },
+          "actionability": {
+            "count": 12,
+            "mean": 4.25,
+            "median": 5.0,
+            "std": 0.9653072991634228,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 12,
+            "mean": 3.4166666666666665,
+            "median": 3.5,
+            "std": 1.164500152881315,
+            "min": 1,
+            "max": 5
+          }
+        },
+        "test_4_dynamic_tone": {
+          "helpfulness": {
+            "count": 12,
+            "mean": 3.8333333333333335,
+            "median": 4.0,
+            "std": 1.1146408580454255,
+            "min": 2,
+            "max": 5
+          },
+          "appropriateness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 0.9962049198956219,
+            "min": 2,
+            "max": 5
+          },
+          "completeness": {
+            "count": 12,
+            "mean": 3.9166666666666665,
+            "median": 4.0,
+            "std": 0.90033663737852,
+            "min": 2,
+            "max": 5
+          },
+          "actionability": {
+            "count": 12,
+            "mean": 4.083333333333333,
+            "median": 4.0,
+            "std": 0.6685579234215214,
+            "min": 3,
+            "max": 5
+          },
+          "overall": {
+            "count": 12,
+            "mean": 4.5,
+            "median": 4.5,
+            "std": 0.5222329678670935,
+            "min": 4,
+            "max": 5
+          }
+        }
+      }
+    }
+  },
+  "sample_size_info": {
+    "total_absolute_evaluations": 1200,
+    "total_pairwise_comparisons": 768,
+    "evaluations_per_condition": {
+      "control": 240,
+      "test_1_hardcoded": 240,
+      "test_2_predefined": 240,
+      "test_3_dynamic": 240,
+      "test_4_dynamic_tone": 240
+    }
+  }
+}

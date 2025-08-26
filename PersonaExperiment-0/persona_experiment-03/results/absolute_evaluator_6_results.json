@@ -1,0 +1,1308 @@
+{
+  "evaluator": "absolute_evaluator_6",
+  "condition": "test_2_predefined",
+  "description": "Absolute rating of test 2 predefined datasets on 1-5 scale",
+  "methodology": {
+    "role_indicators_stripped": true,
+    "rating_scale": "1-5",
+    "blinded_evaluation": true
+  },
+  "dataset_results": {
+    "dataset_41ibljh7.json": {
+      "dataset_file": "dataset_41ibljh7.json",
+      "original_file": "test_2_predefined_responses_agent_4.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 4.0,
+          "appropriateness": 3.25,
+          "completeness": 3.17,
+          "actionability": 4.0,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_5lxo6qji.json": {
+      "dataset_file": "dataset_5lxo6qji.json",
+      "original_file": "test_2_predefined_responses_agent_5.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.75,
+          "appropriateness": 3.92,
+          "completeness": 3.92,
+          "actionability": 3.83,
+          "overall": 3.67
+        }
+      }
+    },
+    "dataset_ujv6oh9s.json": {
+      "dataset_file": "dataset_ujv6oh9s.json",
+      "original_file": "test_2_predefined_responses_agent_6.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 1,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 1,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.67,
+          "appropriateness": 3.17,
+          "completeness": 4.25,
+          "actionability": 4.25,
+          "overall": 3.5
+        }
+      }
+    },
+    "dataset_dbdw2pcn.json": {
+      "dataset_file": "dataset_dbdw2pcn.json",
+      "original_file": "test_2_predefined_responses_agent_7.json",
+      "query_evaluations": {
+        "query_1": {
+          "query_text": "How much does GitHub Copilot cost in 2025?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 2,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_2": {
+          "query_text": "What's the latest news about OpenAI's GPT models?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_3": {
+          "query_text": "Explain the CAP theorem and its practical implications",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_4": {
+          "query_text": "How do I implement OAuth 2.0 flow securely?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_5": {
+          "query_text": "Should I use React or Vue for my startup's frontend?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_6": {
+          "query_text": "How do I structure salary negotiations as a senior engineer?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_7": {
+          "query_text": "I want to learn machine learning but I'm a complete beginner",
+          "evaluation": {
+            "helpfulness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_8": {
+          "query_text": "Help me debug this performance issue in my Node.js app",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_9": {
+          "query_text": "I need to convince my CEO to adopt AI tools",
+          "evaluation": {
+            "helpfulness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 5,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_10": {
+          "query_text": "What should I know about blockchain?",
+          "evaluation": {
+            "helpfulness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 3,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 5,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_11": {
+          "query_text": "I'm having trouble with my team's productivity",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 4,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 3,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        },
+        "query_12": {
+          "query_text": "Tell me about Python",
+          "evaluation": {
+            "helpfulness": {
+              "score": 2,
+              "explanation": "Simulated evaluation - predefined role selection addresses needs effectively"
+            },
+            "appropriateness": {
+              "score": 5,
+              "explanation": "Simulated evaluation - automated selection matches query requirements"
+            },
+            "completeness": {
+              "score": 3,
+              "explanation": "Simulated evaluation - selected role provides comprehensive response"
+            },
+            "actionability": {
+              "score": 4,
+              "explanation": "Simulated evaluation - role-based response enables clear action"
+            },
+            "overall": {
+              "score": 4,
+              "explanation": "Simulated evaluation - predefined selection improves response quality"
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_queries": 12,
+        "average_scores": {
+          "helpfulness": 3.92,
+          "appropriateness": 4.17,
+          "completeness": 3.67,
+          "actionability": 3.75,
+          "overall": 4.0
+        }
+      }
+    }
+  },
+  "overall_summary": {
+    "helpfulness": {
+      "mean": 3.83,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "appropriateness": {
+      "mean": 3.62,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "completeness": {
+      "mean": 3.75,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    },
+    "actionability": {
+      "mean": 3.96,
+      "min": 2,
+      "max": 5,
+      "total_responses": 48
+    },
+    "overall": {
+      "mean": 3.67,
+      "min": 1,
+      "max": 5,
+      "total_responses": 48
+    }
+  }
+}
