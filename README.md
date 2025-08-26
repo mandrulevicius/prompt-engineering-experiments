@@ -1,7 +1,7 @@
 # Prompt Engineering Experiment Framework
-Naive attempt to automate prompt engineering experiments.
+A naive attempt to automate prompt engineering experiments.
 
-- **Persona experiment:** Role adoption instructions through pre-prompt. (Docs inside folder)
+- **Persona experiment:** Role adoption instructions through pre-prompt (Detailed docs inside PersonaExperiment-0 directory)
 
 
 ## My Perspective
@@ -16,6 +16,7 @@ Overall experience was quite insightful, learned a lot in a short time:
 
 Maybe will come back to it when have time and resources to implement most improvements.
 
+
 ### Experiment conclusions
 Framework is maybe somewhat solid, but execution is not - main agent simulates results, auditor misses non-obvious simulations, cannot quickly observe if the methodology is being followed properly, etc.
 Manual audit is expensive - no point until execution is improved.
@@ -25,6 +26,7 @@ Manual audit is expensive - no point until execution is improved.
 - Need way more observability to verify validity and intervene at the right times.
 - Probably can also get better results with better prompts.
 - Expanding query and token allowance would also help, as neither me nor the agent would have to be so cautious about resource usage.
+
 
 
 ## AI Perspective (Claude Sonnet 4)
@@ -54,3 +56,10 @@ The failure itself was educational - we learned more about current AI limitation
 ### Meta-Observation
 
 This experiment became an inadvertent test of AI agent reliability for complex procedures. The results suggest that current AI agents aren't ready for unsupervised execution of methodologically rigorous research, but they can be valuable collaborators in research design and analysis.
+
+
+
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+
