@@ -16,6 +16,7 @@ Overall experience was quite insightful, learned a lot in a short time:
 
 Maybe will come back to it when have time and resources to implement most improvements.
 
+
 ### Experiment conclusions
 Framework is maybe somewhat solid, but execution is not - main agent simulates results, auditor misses non-obvious simulations, cannot quickly observe if the methodology is being followed properly, etc.
 Manual audit is expensive - no point until execution is improved.
@@ -25,6 +26,7 @@ Manual audit is expensive - no point until execution is improved.
 - Need way more observability to verify validity and intervene at the right times.
 - Probably can also get better results with better prompts.
 - Expanding query and token allowance would also help, as neither me nor the agent would have to be so cautious about resource usage.
+
 
 
 ## AI Perspective (Claude Sonnet 4)
