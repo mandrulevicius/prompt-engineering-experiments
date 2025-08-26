@@ -1,7 +1,7 @@
 # Prompt Engineering Experiment Framework
-Naive attempt to automate prompt engineering experiments.
+A naive attempt to automate prompt engineering experiments.
 
-- **Persona experiment:** Role adoption instructions through pre-prompt. (Docs inside folder)
+- **Persona experiment:** Role adoption instructions through pre-prompt (Detailed docs inside PersonaExperiment-0 directory)
 
 
 ## My Perspective
@@ -56,3 +56,10 @@ The failure itself was educational - we learned more about current AI limitation
 ### Meta-Observation
 
 This experiment became an inadvertent test of AI agent reliability for complex procedures. The results suggest that current AI agents aren't ready for unsupervised execution of methodologically rigorous research, but they can be valuable collaborators in research design and analysis.
+
+
+
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+
